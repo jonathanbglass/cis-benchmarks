@@ -1,0 +1,28 @@
+1 Identity and Access Management
+1.1 Avoid the use of the "root" account (Scored) 
+1.3 Ensure credentials unused for 90 days or greater are disabled (Scored) 
+1.4 Ensure access keys are rotated every 90 days or less (Scored) 
+1.6 Ensure IAM password policy require at least one lowercase letter (Scored) 
+1.7 Ensure IAM password policy require at least one symbol (Scored) 
+1.8 Ensure IAM password policy require at least one number (Scored) 
+1.10 Ensure IAM password policy prevents password reuse (Scored) 
+1.12 Ensure no root account access key exists (Scored) 
+1.13 Ensure MFA is enabled for the "root" account (Scored) 
+1.14 Ensure hardware MFA is enabled for the "root" account (Scored) 
+1.15 Ensure security questions are registered in the AWS account (Not Scored) 
+1.16 Ensure IAM policies are attached only to groups or roles (Scored) 
+1.17 Maintain current contact details (Not Scored) 
+2 Logging 
+2.1 Ensure CloudTrail is enabled in all regions (Scored) 
+2.2 Ensure CloudTrail log file validation is enabled (Scored) 
+2.4 Ensure CloudTrail trails are integrated with CloudWatch Logs (Scored) 
+2.5 Ensure AWS Config is enabled in all regions (Scored) 
+2.7 Ensure CloudTrail logs are encrypted at rest using KMS CMKs (Scored) 
+2.8 Ensure rotation for customer created CMKs is enabled (Scored) 
+2.9 Ensure VPC flow logging is enabled in all VPCs (Scored) 
+3 Monitoring
+3.4 Ensure a log metric filter and alarm exist for IAM policy changes (Scored) 
+3.14 Ensure a log metric filter and alarm exist for VPC changes (Scored) 
+4 Networking 
+4.3 Ensure the default security group of every VPC restricts all traffic (Scored) 
+4.4 Ensure routing tables for VPC peering are "least access" (Not Scored) 

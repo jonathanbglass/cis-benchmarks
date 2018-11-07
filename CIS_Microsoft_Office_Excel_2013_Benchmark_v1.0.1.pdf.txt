@@ -1,0 +1,12 @@
+1 User Configuration 
+1.1 Customizable Error Messages 
+1.2 Data Recovery 
+1.3 Disable Items in User Interface 
+1.4 Excel Options 
+1.4.1.2 (L1) Ensure 'Ask to Update Automatic Links' is set to Enabled (Scored) 
+1.4.6.2 (L1) Ensure 'Default File Format' is set to Enabled (Scored) 
+1.4.6.3 (L1) Ensure 'Disable AutoRepublish' is set to Enabled (Scored) 
+1.4.7.2.5 (L1) Ensure 'Disable Trust Bar Notification For Unsigned Application Addins And Block Them' is set to Enabled (Scored) 
+1.4.7.3 (L1) Ensure 'Turn Off File Validation' is set to Disabled (Scored) 
+1.5 File Tab 
+1.6 Miscellaneous 

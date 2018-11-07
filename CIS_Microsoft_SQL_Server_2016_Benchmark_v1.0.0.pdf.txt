@@ -1,0 +1,24 @@
+1 Installation, Updates and Patches 
+1.2 Ensure Single-Function Member Servers are Used (Not Scored)
+2 Surface Area Reduction 
+2.2 Ensure 'CLR Enabled' Server Configuration Option is set to '0' (Scored) 
+2.6 Ensure 'Remote Access' Server Configuration Option is set to '0' (Scored) 
+2.9 Ensure 'Trustworthy' Database Property is set to 'Off' (Scored) 
+2.11 Ensure SQL Server is configured to use non-standard ports (Scored) 
+2.14 Ensure the 'sa' Login Account has been renamed (Scored) 
+2.15 Ensure 'xp_cmdshell' Server Configuration Option is set to '0' (Scored) 
+2.16 Ensure 'AUTO_CLOSE' is set to 'OFF' on contained databases (Scored) 
+2.17 Ensure no login exists with the name 'sa' (Scored) 
+3 Authentication and Authorization 
+3.3 Ensure 'Orphaned Users' are Dropped From SQL Server Databases (Scored) 
+3.4 Ensure SQL Authentication is not used in contained databases (Scored) 
+3.9 Ensure Windows BUILTIN groups are not SQL Logins (Scored) 
+3.10 Ensure Windows local groups are not SQL Logins (Scored)
+4 Password Policies 
+5 Auditing and Logging 
+5.3 Ensure 'Login Auditing' is set to 'failed logins' (Scored) 
+6 Application Development 
+7 Encryption 
+7.2 Ensure Asymmetric Key Size is set to 'greater than or equal to 2048' in nonsystem databases (Scored) 
+8 Appendix: Additional Considerations 
+8.1 Ensure 'SQL Server Browser Service' is configured correctly (Not Scored)

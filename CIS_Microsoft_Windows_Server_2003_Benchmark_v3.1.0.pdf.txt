@@ -1,0 +1,120 @@
+1 Computer Configuration 
+1.1 Windows Settings 
+1.1.1 Security Settings 
+1.1.1.1 Account Policies 
+1.1.1.1.1 Kerberos Policy 
+1.1.1.1.1.1 Configure 'Maximum lifetime for service ticket' (Not Scored) 
+1.1.1.1.1.2 Configure 'Enforce user logon restrictions' (Not Scored) 
+1.1.1.1.1.3 Configure 'Maximum lifetime for user ticket' (Not Scored) 
+1.1.1.1.1.5 Configure 'Maximum lifetime for user ticket renewal' (Not Scored) 
+1.1.1.1.2 Account Lockout Policy 
+1.1.1.1.2.1 Set 'Reset account lockout counter after' to '15' or more (Scored)
+1.1.1.1.2.2 Set 'Account lockout duration' to '15' or greater (Scored) 
+1.1.1.1.2.3 Set 'Account lockout threshold' is set to '6' or fewer (Scored) 
+1.1.1.1.3 Password Policy 
+1.1.1.1.3.1 Set 'Maximum password age' to '60' or less (Scored) 
+1.1.1.1.3.2 Set 'Enforce password history' to '24' or more (Scored) 
+1.1.1.1.3.4 Set 'Minimum password age' to '1' or more (Scored) 
+1.1.1.1.3.6 Set 'Minimum password length' to '14' or more (Scored) 
+1.1.1.2 Local Policies 
+1.1.1.2.1 Security Options
+1.1.1.2.1.2 Set 'Accounts: Guest account status' to 'Disabled' (Scored)
+1.1.1.2.1.5 Set 'Accounts: Administrator account status' to 'Disabled' (Scored) 
+1.1.1.2.1.19 Set 'Shutdown: Clear virtual memory pagefile' to 'Disabled' (Scored) 
+1.1.1.2.1.34 Set 'System settings: Optional subsystems' to '' (Scored) 
+1.1.1.2.1.66 Set 'Interactive logon: Require smart card' to 'Disabled' (Scored) 
+2003)' (Scored) 
+1.1.1.2.2 Audit Policy 
+1.1.1.2.2.1 Set 'Audit directory service access' to 'Failure' (Scored) 
+1.1.1.2.2.2 Set 'Audit account logon events' to 'Success, Failure' (Scored) 
+1.1.1.2.2.3 Set 'Audit logon events' to 'Success, Failure' (Scored) 
+1.1.1.2.2.4 Set 'Audit process tracking' to 'No Auditing' (Scored) 
+1.1.1.2.2.5 Set 'Audit account management' to 'Success, Failure' (Scored) 
+1.1.1.2.2.9 Configure 'Audit object access' (Not Scored) 
+1.1.1.2.3 User Rights Assignment 
+1.1.1.2.3.7 Configure 'Create permanent shared objects' (Not Scored) 
+1.1.1.2.3.8 Set 'Debug programs' to 'Administrators' (Scored) 
+1.1.1.2.3.9 Configure 'Load and unload device drivers' (Not Scored) 
+1.1.1.2.3.11 Configure 'Generate security audits' (Not Scored) 
+1.1.1.2.3.12 Set 'Shut down the system' to 'Administrators' (Scored) 
+1.1.1.2.3.13 Configure 'Increase scheduling priority' (Not Scored) 
+1.1.1.2.3.15 Configure 'Add workstations to domain' (Not Scored) 
+1.1.1.2.3.16 Configure 'Change the system time' (Not Scored) 
+1.1.1.2.3.17 Configure 'Restore files and directories' (Not Scored) 
+1.1.1.2.3.18 Configure 'Create a token object' (Not Scored) 
+1.1.1.2.3.19 Configure 'Synchronize directory service data' (Not Scored) 
+1.1.1.2.3.20 Set 'Profile system performance' to 'Administrators' (Scored)
+1.1.1.2.3.21 Configure 'Access this computer from the network' (Not Scored) 
+1.1.1.2.3.22 Set 'Profile single process' to 'Administrators' (Scored) 
+1.1.1.2.3.23 Configure 'Impersonate a client after authentication' (Not Scored) 
+1.1.1.2.3.24 Set 'Create a pagefile' to 'Administrators' (Scored) 
+1.1.1.2.3.25 Set 'Deny log on as a batch job' to 'Guests' (Scored) 
+1.1.1.2.3.26 Set 'Deny log on through Terminal Services' to 'Guests' (Scored) 
+1.1.1.2.3.27 Configure 'Act as part of the operating system' (Not Scored) 
+1.1.1.2.3.28 Configure 'Back up files and directories' (Not Scored) 
+1.1.1.2.3.29 Set 'Log on as a service' to 'NETWORK SERVICE' (Scored) 
+1.1.1.2.3.31 Configure 'Perform volume maintenance tasks' (Not Scored) 
+1.1.1.2.3.32 Configure 'Deny log on locally' (Not Scored) 
+1.1.1.2.3.33 Set 'Allow log on locally' to 'Administrators' (Scored) 
+1.1.1.2.3.34 Configure 'Create global objects' (Not Scored) 
+1.1.1.2.3.35 Configure 'Bypass traverse checking' (Not Scored) 
+1.1.1.2.3.36 Configure 'Deny log on as a service' (Not Scored) 
+1.1.1.2.3.37 Set 'Manage auditing and security log' to 'Administrators' (Scored) 
+1.1.1.2.3.39 Configure 'Force shutdown from a remote system' (Not Scored) 
+1.1.1.2.3.41 Configure 'Log on as a batch job' (Not Scored) 
+1.1.1.3 Event Log 
+1.1.1.3.2 Set 'Maximum application log size' to '16384' (Scored) 
+1.1.1.3.4 Set 'Maximum system log size' to '16384' (Scored) 
+1.1.1.3.5 Set 'Maximum security log size' to '81920' (Scored) 
+1.1.1.3.7 Configure 'Retain system log' (Not Scored) 
+1.1.1.3.8 Configure 'Retain security log' (Not Scored) 
+1.1.1.3.9 Configure 'Retain application log' (Not Scored) 
+1.2 Administrative Templates 
+1.2.1 Network 
+1.2.1.1 Network Connections 
+1.2.1.1.1 Windows Firewall 
+1.2.1.1.1.1 Standard Profile 
+1.2.1.1.1.1.1 Configure 'Windows Firewall: Allow ICMP exceptions' (Not Scored) 
+1.2.1.1.1.1.11 Configure 'Windows Firewall: Prohibit notifications' (Not Scored) 
+1.2.1.1.1.2 Domain Profile 
+1.2.1.1.1.2.2 Configure 'Windows Firewall: Do not allow exceptions' (Not Scored) 
+1.2.1.1.1.2.7 Configure 'Windows Firewall: Allow ICMP exceptions' (Not Scored) 
+1.2.1.1.1.2.8 Configure 'Windows Firewall: Prohibit notifications' (Not Scored) 
+1.2.2 System 
+1.2.2.1 Remote Assistance 
+1.2.2.1.1 Configure 'Offer Remote Assistance' (Not Scored) 
+1.2.2.1.2 Configure 'Solicited Remote Assistance' (Not Scored) 
+1.2.2.2 Internet Communication Management 
+1.2.2.2.1 Internet Communication settings
+1.2.2.2.1.5 Configure 'Turn off printing over HTTP' (Not Scored) 
+1.2.2.3 Group Policy 
+1.2.2.3.1 Configure 'Registry policy processing' (Not Scored) 
+1.2.2.4 Remote Procedure Call 
+1.2.2.5.1 Configure 'Do not process the legacy run list' (Not Scored) 
+1.2.2.5.2 Configure 'Do not process the run once list' (Not Scored) 
+1.2.3 Windows Components 
+1.2.3.1 AutoPlay Policies 
+1.2.3.1.1 Set 'Turn off Autoplay' to 'Enabled:All drives' (Scored) 
+1.2.3.2 Windows Update 
+1.2.3.2.1 Configure 'Configure Automatic Updates' (Not Scored) 
+1.2.3.2.3 Configure 'Set the intranet statistics server' (Not Scored) 
+1.2.3.3 Windows Messenger 
+1.2.3.3.1 Configure 'Do not allow Windows Messenger to be run' (Not Scored) 
+1.2.3.4 Remote Desktop Services 
+1.2.3.4.1 Remote Desktop Connection Client 
+1.2.3.4.1.1 Configure 'Do not allow passwords to be saved' (Not Scored) 
+1.2.3.4.2 Remote Desktop Session Host 
+1.2.3.4.2.1 Device and Resource Redirection 
+1.2.3.4.2.1.1 Configure 'Do not allow drive redirection' (Not Scored) 
+1.2.3.4.2.2 Connections 
+1.2.3.4.2.3.1 Configure 'Set client connection encryption level' (Not Scored) 
+1.2.3.5 Windows Error Reporting 
+1.2.3.5.1 Advanced Error Reporting Settings 
+1.2.3.5.1.1 Configure 'Report operating system errors' (Not Scored) 
+1.2.3.5.2 Configure 'Display Error Notification' (Not Scored) 
+1.2.3.6 NetMeeting 
+1.2.3.6.1 Configure 'Disable remote Desktop Sharing' (Not Scored) 
+1.2.3.7 Windows Installer 
+1.2.3.7.1 Set 'Always install with elevated privileges' to 'Disabled' (Scored) 
+1.2.3.8 Credential User Interface 
+1.2.3.8.1 Configure 'Require trusted path for credential entry.' (Not Scored)

@@ -1,0 +1,11 @@
+1 Settings 
+2 Access and Permissions 
+3 Secure Infrastructure Design 
+4 Authentication 
+4.4 Ensure Anonymous authentication is denied (Not Scored) 
+5 Auditing 
+5.2 Ensure that remote sessions for accessing security functions and securityrelevant information are audited (Not Scored) 
+6 Services and Connections 
+6.1 Ensure that the SQL Server component to SharePoint is set to listen on nondefault ports, with the defaults (UDP 1434 and TCP 1433) disabled (Scored) 
+6.2 Ensure HTTPS binding: TCP 32844 is used (Scored) 
+7 Web.Config Configuration 

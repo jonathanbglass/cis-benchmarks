@@ -1,0 +1,15 @@
+1 User Configuration 
+1.1 Collaboration Settings 
+1.2 Customizable Error Messages 
+1.3 Disable Items in User Interface 
+1.4 File Tab 
+1.5 Japanese Find 
+1.6 Miscellaneous 
+1.7 Review Tab 
+1.8 Word Options
+1.8.1.2 (L1) Ensure 'Custom Markup Warning' is set to Enabled (Scored)
+1.8.3.1 (L1) Ensure 'Hidden Text' is set to Enabled (Scored) 
+1.8.7.2.5 (L1) Ensure 'Disable Trust Bar Notification for Unsigned Application Addins and Block Them' to Enable (Scored) 
+1.8.7.2.7 (L1) Ensure 'Trust Access to Visual Basic Project' to Disabled (Scored) 
+1.8.7.3 (L1) Ensure 'Make Hidden Markup Visible' is set to Enabled (Scored) 
+1.8.7.4 (L1) Ensure 'Turn Off File Validation' is set to Disabled (Scored) 

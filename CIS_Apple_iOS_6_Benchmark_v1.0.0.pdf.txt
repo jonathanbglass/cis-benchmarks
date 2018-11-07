@@ -1,0 +1,39 @@
+1 User Interface Settings ................................................................................................................9
+1.1 System Settings..........................................................................................................................9
+1.1.1 Update firmware to latest version (Not Scored) ...........................................................9
+1.1.2 Enable Passcode Lock (Not Scored) 
+1.1.3 Disallow Simple Passcode (Not Scored)
+1.1.4 Set Auto-lock (Not Scored)
+1.1.5 Enable Erase Data (Not Scored)
+1.1.6 Forget Wi-Fi networks to prevent automatic rejoin (Not Scored) 
+1.1.7 Turn off Ask to Join Networks (Not Scored) 
+1.1.8 Turn off Auto-Join for all Wi-Fi networks (Not Scored)
+1.1.9 Turn off Wi-Fi when not needed (Not Scored)
+1.1.10 Turn off VPN when not needed (Not Scored)
+1.1.11 Turn off Bluetooth when not needed (Not Scored) 
+1.1.12 Turn off Personal Hotspot when not needed (Not Scored)
+1.1.13 Turn off Location Services (Not Scored) 
+1.1.14 Turn on Airplane Mode (Not Scored) 
+1.1.16 Disable View in Lock Screen for apps when device is locked (Not Scored)
+1.2 Safari Settings 
+1.2.1 Disable JavaScript (Not Scored)
+1.2.2 Enable Fraud Warning (Not Scored)
+1.2.3 Disable Auto Fill (Not Scored)
+1.2.4 Turn On Private Browsing When Needed (Not Scored) 
+2 iPhone Configuration Utility Settings 
+2.1 System Settings
+2.1.1 Set Security to disallow profile removal (Scored) 
+2.2.1 Require passcode on device (Scored) 
+2.2.2 Require alphanumeric value (Scored) 
+2.2.3 Set minimum passcode length (Scored) 
+2.2.4 Set Minimum number of complex characters (Scored)
+2.2.5 Set Maximum Auto-lock (Scored)
+2.2.6 Set Maximum number of failed attempts (Scored)
+3 Microsoft Exchange ActiveSync Policy Settings
+3.1 Password Settings 
+3.1.1 Enable 'Require password' (Scored)
+3.1.2 Enable 'Require alphanumeric value' (Scored) 
+3.1.3 Set the 'minimum password length' (Scored) 
+3.1.4 Set the 'minimum number of character sets' (Scored)
+3.1.5 Set the 'timeout' for 'Time without user input before password must be reentered (in minutes)' (Scored)
+3.1.6 Limit the 'Number of failed attempts allowed' (Scored)
