@@ -1,3 +1,197 @@
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1 |Initial Setup 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.1 |Filesystem Configuration 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.1.1 |Disable unused filesystems 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.1.1.1 |Ensure mounting of cramfs filesystems is disabled |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.1.1.2 |Ensure mounting of hfs filesystems is disabled |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.1.1.3 |Ensure mounting of hfsplus filesystems is disabled |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.1.1.4 |Ensure mounting of squashfs filesystems is disabled |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.1.1.5 |Ensure mounting of udf filesystems is disabled |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.1.2 |Ensure /tmp is configured |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.1.3 |Ensure nodev option set on /tmp partition |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.1.4 |Ensure nosuid option set on /tmp partition |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.1.5 |Ensure noexec option set on /tmp partition |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.1.6 |Ensure separate partition exists for /var |(Scored)
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.1.7 |Ensure separate partition exists for /var/tmp |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.1.8 |Ensure nodev option set on /var/tmp partition |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.1.9 |Ensure nosuid option set on /var/tmp partition |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.1.10 |Ensure noexec option set on /var/tmp partition |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.1.11 |Ensure separate partition exists for /var/log |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.1.12 |Ensure separate partition exists for /var/log/audit |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.1.13 |Ensure separate partition exists for /home |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.1.14 |Ensure nodev option set on /home partition |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.1.15 |Ensure nodev option set on /dev/shm partition |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.1.16 |Ensure nosuid option set on /dev/shm partition |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.1.17 |Ensure noexec option set on /dev/shm partition |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.1.18 |Ensure sticky bit is set on all world-writable directories |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.1.19 |Disable Automounting |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.2 |Configure Software Updates 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.2.1 |Ensure package manager repositories are configured |(Not Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.2.2 |Ensure GPG keys are configured |(Not Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.2.3 |Ensure gpgcheck is globally activated |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.3 |Filesystem Integrity Checking 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.3.1 |Ensure AIDE is installed |(Scored)
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.3.2 |Ensure filesystem integrity is regularly checked |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.4 |Secure Boot Settings 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.4.1 |Ensure permissions on bootloader config are configured |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.4.2 |Ensure authentication required for single user mode |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.5 |Additional Process Hardening 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.5.1 |Ensure core dumps are restricted |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.5.3 |Ensure prelink is disabled |(Scored)
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.6 |Mandatory Access Control 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.6.1 |Configure SELinux 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.6.1.1 |Ensure SELinux is not disabled in bootloader configuration |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.6.1.2 |Ensure the SELinux state is enforcing |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.6.1.3 |Ensure SELinux policy is configured |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.6.1.4 |Ensure SETroubleshoot is not installed |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.6.1.6 |Ensure no unconfined daemons exist |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.6.2 |Ensure SELinux is installed |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.7 |Warning Banners
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.7.1 |Command Line Warning Banners 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.7.1.1 |Ensure message of the day is configured properly |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.7.1.4 |Ensure permissions on /etc/motd are configured |(Not Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.7.1.5 |Ensure permissions on /etc/issue are configured |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|1.7.1.6 |Ensure permissions on /etc/issue.net are configured |(Not Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|2 |Services 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|2.1 |Special Purpose Services 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|2.1.1 |Time Synchronization 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|2.1.1.1 |Ensure time synchronization is in use |(Not Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|2.1.1.2 |Ensure ntp is configured |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|2.1.1.3 |Ensure chrony is configured |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|2.1.2 |Ensure X Window System is not installed |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|2.1.3 |Ensure Avahi Server is not enabled |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|2.1.4 |Ensure CUPS is not enabled |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|2.1.5 |Ensure DHCP Server is not enabled |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|2.1.6 |Ensure LDAP server is not enabled |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|2.1.7 |Ensure NFS and RPC are not enabled |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|2.1.8 |Ensure DNS Server is not enabled |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|2.1.9 |Ensure FTP Server is not enabled |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|2.1.10 |Ensure HTTP server is not enabled |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|2.1.11 |Ensure IMAP and POP3 server is not enabled |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|2.1.12 |Ensure Samba is not enabled |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|2.1.13 |Ensure HTTP Proxy Server is not enabled |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|2.1.14 |Ensure SNMP Server is not enabled |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|2.1.16 |Ensure NIS Server is not enabled |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|2.1.17 |Ensure rsh server is not enabled |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|2.1.18 |Ensure telnet server is not enabled |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|2.1.19 |Ensure tftp server is not enabled |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|2.1.20 |Ensure rsync service is not enabled |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|2.1.21 |Ensure talk server is not enabled |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|2.2 |Service Clients 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|2.2.1 |Ensure NIS Client is not installed |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|2.2.2 |Ensure rsh client is not installed |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|2.2.3 |Ensure talk client is not installed |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|2.2.4 |Ensure telnet client is not installed |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|2.2.5 |Ensure LDAP client is not installed |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3 |Network Configuration
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3.1 |Network Parameters (Host Only) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3.1.1 |Ensure IP forwarding is disabled |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3.1.2 |Ensure packet redirect sending is disabled |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3.2 |Network Parameters (Host and Router) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3.2.1 |Ensure source routed packets are not accepted |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3.2.2 |Ensure ICMP redirects are not accepted |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3.2.3 |Ensure secure ICMP redirects are not accepted |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3.2.4 |Ensure suspicious packets are logged |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3.2.5 |Ensure broadcast ICMP requests are ignored |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3.2.6 |Ensure bogus ICMP responses are ignored |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3.2.7 |Ensure Reverse Path Filtering is enabled |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3.2.8 |Ensure TCP SYN Cookies is enabled |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3.2.9 |Ensure IPv6 router advertisements are not accepted |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3.3 |TCP Wrappers
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3.3.1 |Ensure TCP Wrappers is installed |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3.3.2 |Ensure /etc/hosts.allow is configured |(Not Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3.3.3 |Ensure /etc/hosts.deny is configured |(Not Scored)
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3.3.4 |Ensure permissions on /etc/hosts.allow are configured |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3.3.5 |Ensure permissions on /etc/hosts.deny are configured |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3.4 |Uncommon Network Protocols 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3.4.1 |Ensure DCCP is disabled |(Not Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3.4.2 |Ensure SCTP is disabled |(Not Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3.4.3 |Ensure RDS is disabled |(Not Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3.4.4 |Ensure TIPC is disabled |(Not Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3.5 |Firewall Configuration 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3.5.1 |Configure IPv4 iptables 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3.5.1.1 |Ensure default deny firewall policy |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3.5.1.2 |Ensure loopback traffic is configured |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3.5.1.4 |Ensure firewall rules exist for all open ports |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3.5.2 |Configure IPv6 ip6tables
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3.5.2.1 |Ensure IPv6 default deny firewall policy |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3.5.2.2 |Ensure IPv6 loopback traffic is configured |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3.5.2.4 |Ensure IPv6 firewall rules exist for all open ports |(Not Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3.5.3 |Ensure iptables is installed |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|3.6 |Disable IPv6 |(Not Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|4 |Logging and Auditing 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|4.1 |Configure System Accounting (auditd) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|4.1.1 |Configure Data Retention 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|4.1.1.1 |Ensure audit log storage size is configured |(Not Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|4.1.1.2 |Ensure system is disabled when audit logs are full |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|4.1.1.3 |Ensure audit logs are not automatically deleted |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|4.1.2 |Ensure auditd service is enabled |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|4.1.8 |Ensure login and logout events are collected |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|4.1.9 |Ensure session initiation information is collected |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|4.1.12 |Ensure use of privileged commands is collected |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|4.1.13 |Ensure successful file system mounts are collected |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|4.1.14 |Ensure file deletion events by users are collected |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|4.1.17 |Ensure kernel module loading and unloading is collected |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|4.1.18 |Ensure the audit configuration is immutable |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|4.2 |Configure Logging 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|4.2.1 |Configure rsyslog 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|4.2.1.1 |Ensure rsyslog Service is enabled |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|4.2.1.2 |Ensure logging is configured |(Not Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|4.2.1.3 |Ensure rsyslog default file permissions configured |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|4.2.2 |Configure syslog-ng
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|4.2.2.1 |Ensure syslog-ng service is enabled |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|4.2.2.2 |Ensure logging is configured |(Not Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|4.2.2.3 |Ensure syslog-ng default file permissions configured |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|4.2.3 |Ensure rsyslog or syslog-ng is installed |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|4.2.4 |Ensure permissions on all logfiles are configured |(Scored)
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|4.3 |Ensure logrotate is configured |(Not Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5 |Access, Authentication and Authorization 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.1 |Configure cron 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.1.1 |Ensure cron daemon is enabled |(Scored)
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.1.2 |Ensure permissions on /etc/crontab are configured |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.1.3 |Ensure permissions on /etc/cron.hourly are configured |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.1.4 |Ensure permissions on /etc/cron.daily are configured |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.1.5 |Ensure permissions on /etc/cron.weekly are configured |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.1.6 |Ensure permissions on /etc/cron.monthly are configured |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.1.7 |Ensure permissions on /etc/cron.d are configured |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.1.8 |Ensure at/cron is restricted to authorized users |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.2 |SSH Server Configuration 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.2.1 |Ensure permissions on /etc/ssh/sshd_config are configured |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.2.4 |Ensure SSH Protocol is set to 2 |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.2.5 |Ensure SSH LogLevel is appropriate |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.2.6 |Ensure SSH X11 forwarding is disabled |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.2.7 |Ensure SSH MaxAuthTries is set to 4 or less |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.2.8 |Ensure SSH IgnoreRhosts is enabled |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.2.9 |Ensure SSH HostbasedAuthentication is disabled |(Scored)
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.2.10 |Ensure SSH root login is disabled |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.2.11 |Ensure SSH PermitEmptyPasswords is disabled |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.2.12 |Ensure SSH PermitUserEnvironment is disabled |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.2.13 |Ensure only strong ciphers are used |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.2.14 |Ensure only strong MAC algorithms are used |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.2.15 |Ensure that strong Key Exchange algorithms are used |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.2.16 |Ensure SSH Idle Timeout Interval is configured |(Scored)
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.2.17 |Ensure SSH LoginGraceTime is set to one minute or less |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.2.18 |Ensure SSH access is limited |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.2.19 |Ensure SSH warning banner is configured |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.3 |Configure PAM
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.3.1 |Ensure password creation requirements are configured |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.3.2 |Ensure lockout for failed password attempts is configured |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.3.3 |Ensure password reuse is limited |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.3.4 |Ensure password hashing algorithm is SHA-512 |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.4 |User Accounts and Environment 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.4.1 |Set Shadow Password Suite Parameters 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.4.1.1 |Ensure password expiration is 365 days or less |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.4.1.3 |Ensure password expiration warning days is 7 or more |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.4.1.4 |Ensure inactive password lock is 30 days or less |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.4.1.5 |Ensure all users last password change date is in the past |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.4.2 |Ensure system accounts are non-login |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.4.3 |Ensure default group for the root account is GID 0 |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.4.4 |Ensure default user umask is 027 or more restrictive |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.4.5 |Ensure default user shell timeout is 900 seconds or less |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.5 |Ensure root login is restricted to system console |(Not Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|5.6 |Ensure access to the su command is restricted |(Scored) 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|6 |System Maintenance
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|6.1 |System File Permissions 
+CIS|Amazon_Linux_2|Benchmark|v1.0.0|6.1.1 |Audit system file permissions |(Not Scored) 
 CIS|Amazon_Linux|Benchmark|v2.1.0|1 |Initial Setup 
 CIS|Amazon_Linux|Benchmark|v2.1.0|1.1 |Filesystem Configuration 
 CIS|Amazon_Linux|Benchmark|v2.1.0|1.1.1.1 |Ensure mounting of cramfs filesystems is disabled |(Scored) 
@@ -1156,6 +1350,48 @@ CIS|Apple_iOS_11|Benchmark|v1.0.0|3.8 |Lock Screen Message
 CIS|Apple_iOS_11|Benchmark|v1.0.0|3.8.1 |(L1) Ensure 'If Lost, Return to... Message' is 'Configured' |(Not Scored)
 CIS|Apple_iOS_11|Benchmark|v1.0.0|4 |Additional Recommendations 
 CIS|Apple_iOS_11|Benchmark|v1.0.0|4.1 |(L1) Ensure device is not obviously jailbroken |(Scored) 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|1 |Benchmark Guidance 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|2 |Configuration Profile Recommendations for End-User Owned Devices
+CIS|Apple_iOS_12|Benchmark|v1.0.0|2.1 |General 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|2.1.1 |(L1) Ensure a 'Consent Message' has been 'Configured' |(Scored) 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|2.2 |Restrictions
+CIS|Apple_iOS_12|Benchmark|v1.0.0|2.2.1 |Functionality 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|2.2.1.4 |(L1) Ensure 'Force encrypted backups' is set to 'Enabled' |(Scored) 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|2.2.1.9 |(L2) Ensure 'Allow Handoff' is set to 'Disabled' |(Scored) 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|2.2.2 |Apps 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|2.2.2.1 |(L1) Ensure 'Force fraud warning' is set to 'Enabled' |(Scored) 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|2.3 |Domains 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|2.4 |Passcode 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|2.4.1 |(L1) Ensure 'Allow simple value' is set to 'Disabled' |(Scored) 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|2.4.2 |(L1) Ensure 'Minimum passcode length' is set to '6' or greater |(Scored) 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|2.4.3 |(L1) Ensure 'Maximum Auto-Lock' is set to '2 minutes' or less |(Scored) 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|2.4.5 |(L1) Ensure 'Maximum number of failed attempts' is set to '6' |(Scored) 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|2.5 |VPN 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|2.5.1 |(L1) Ensure 'VPN' is 'Configured' |(Not Scored) 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|2.6 |Mail 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|2.7 |Notifications 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|3 |Configuration Profile Recommendations for Institutionally Owned Devices 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|3.1 |General 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|3.2 |Restrictions
+CIS|Apple_iOS_12|Benchmark|v1.0.0|3.2.1 |Functionality 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|3.2.1.4 |(L1) Ensure 'Allow iCloud backup' is set to 'Disabled' |(Scored) 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|3.2.1.6 |(L1) Ensure 'Allow iCloud Keychain' is set to 'Disabled' |(Scored) 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|3.2.1.8 |(L1) Ensure 'Force encrypted backups' is set to 'Enabled' |(Scored) 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|3.2.1.19 |(L1) Ensure 'Allow Handoff' is set to 'Disabled' |(Scored) 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|3.2.2 |Apps 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|3.2.2.1 |(L1) Ensure 'Force fraud warning' is set to 'Enabled' |(Scored) 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|3.3 |Domains 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|3.4 |Passcode 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|3.4.1 |(L1) Ensure 'Allow simple value' is set to 'Disabled' |(Scored) 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|3.5 |VPN 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|3.5.1 |(L1) Ensure 'VPN' is 'Configured' |(Not Scored) 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|3.6 |Mail 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|3.6.2 |(L2) Ensure 'Allow Mail Drop' is set to 'Disabled' |(Scored) 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|3.7 |Notifications 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|3.8 |Lock Screen Message 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|3.8.1 |(L1) Ensure 'If Lost, Return to... Message' is 'Configured' |(Not Scored) 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|4 |Additional Recommendations 
+CIS|Apple_iOS_12|Benchmark|v1.0.0|4.1 |(L1) Ensure device is not obviously jailbroken |(Scored) 
 CIS|Apple_iOS_6|Benchmark|v1.0.0|1 |User Interface Settings ................................................................................................................9
 CIS|Apple_iOS_6|Benchmark|v1.0.0|1.1 |System Settings..........................................................................................................................9
 CIS|Apple_iOS_6|Benchmark|v1.0.0|1.1.1 |Update firmware to latest version |(Not Scored) ...........................................................9
@@ -1267,6 +1503,247 @@ CIS|Apple_iOS_9|Benchmark|v1.0.0|3.1.3 |Set the 'minimum password length' |(Scor
 CIS|Apple_iOS_9|Benchmark|v1.0.0|3.1.4 |Set the 'minimum number of character sets' |(Scored) 
 CIS|Apple_iOS_9|Benchmark|v1.0.0|3.1.5 |Set the 'timeout' for 'Time without user input before password must be reentered (in minutes)' |(Scored) 
 CIS|Apple_iOS_9|Benchmark|v1.0.0|3.1.6 |Limit the 'Number of failed attempts allowed' |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|1 |Install Updates, Patches and Additional Security Software 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|1.1 |Verify all Apple provided software is current |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|1.2 |Enable Auto Update |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|1.3 |Enable app update installs |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|1.4 |Enable system data files and security update installs |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|1.5 |Enable macOS update installs |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2 |System Preferences
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.1 |Bluetooth 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.1.1 |Turn off Bluetooth, if no paired devices exist |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.1.3 |Show Bluetooth status in menu bar |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.2 |Date & Time 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.2.1 |Enable "Set time and date automatically" |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.2.2 |Ensure time set is within appropriate limits |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.3 |Desktop & Screen Saver 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.3.2 |Secure screen saver corners |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.3.3 |Set a screen corner to Start Screen Saver |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.4 |Sharing
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.4.1 |Disable Remote Apple Events |(Scored)
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.4.2 |Disable Internet Sharing |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.4.3 |Disable Screen Sharing |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.4.4 |Disable Printer Sharing |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.4.5 |Disable Remote Login |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.4.6 |Disable DVD or CD Sharing |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.4.7 |Disable Bluetooth Sharing |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.4.8 |Disable File Sharing |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.4.9 |Disable Remote Management |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.5 |Energy Saver 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.5.1 |Disable "Wake for network access" |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.6 |Security & Privacy 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.6.1.1 |Enable FileVault |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.6.2 |Enable Gatekeeper |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.6.3 |Enable Firewall |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.6.4 |Enable Firewall Stealth Mode |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.6.5 |Review Application Firewall Rules |(Scored)
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.6.6 |Enable Location Services |(Not Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.6.7 |Monitor Location Services Access |(Not Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.6.8 |Disable sending diagnostic and usage data to Apple |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.7 |iCloud 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.7.1 |iCloud configuration |(Not Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.7.2 |iCloud keychain |(Not Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.7.3 |iCloud Drive |(Not Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.7.4 |iCloud Drive Document sync |(Scored)
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.7.5 |iCloud Drive Desktop sync |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.8 |Time Machine 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.8.1 |Time Machine Auto-Backup |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.8.2 |Time Machine Volumes Are Encrypted |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.9 |Pair the remote control infrared receiver if enabled |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.10 |Enable Secure Keyboard Entry in terminal.app |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.11 |Java 6 is not the default Java runtime |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|2.12 |Securely delete files as needed |(Not Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|3 |Logging and Auditing 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|3.1 |Enable security auditing |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|3.2 |Configure Security Auditing Flags |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|3.3 |Ensure security auditing retention |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|3.4 |Control access to audit records |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|3.5 |Retain install.log for 365 or more days |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|3.6 |Ensure Firewall is configured to log |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|4 |Network Configurations
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|4.1 |Disable Bonjour advertising service |(Scored)
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|4.2 |Enable "Show Wi-Fi status in menu bar" |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|4.3 |Create network specific locations |(Not Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|4.4 |Ensure http server is not running |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|4.5 |Ensure FTP server is not running |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|4.6 |Ensure nfs server is not running |(Scored)
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|5 |System Access, Authentication and Authorization 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|5.1 |File System Permissions and Access Controls 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|5.1.1 |Secure Home Folders |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|5.1.2 |Check System Wide Applications for appropriate permissions |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|5.1.3 |Check System folder for world writable files |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|5.1.4 |Check Library folder for world writable files |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|5.2 |Password Management 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|5.2.1 |Configure account lockout threshold |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|5.2.2 |Set a minimum password length |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|5.2.3 |Complex passwords must contain an Alphabetic Character |(Not Scored)
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|5.2.4 |Complex passwords must contain a Numeric Character |(Not Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|5.2.5 |Complex passwords must contain a Special Character |(Not Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|5.2.6 |Complex passwords must uppercase and lowercase letters |(Not Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|5.2.7 |Password Age |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|5.2.8 |Password History |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|5.3 |Reduce the sudo timeout period |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|5.4 |Use a separate timestamp for each user/tty combo |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|5.5 |Automatically lock the login keychain for inactivity |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|5.6 |Ensure login keychain is locked when the computer sleeps |(Scored)
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|5.7 |Enable OCSP and CRL certificate checking |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|5.8 |Do not enable the "root" account |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|5.9 |Disable automatic login |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|5.11 |Ensure system is set to hibernate |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|5.14 |Create a custom message for the Login Screen |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|5.15 |Create a Login window banner |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|5.16 |Do not enter a password-related hint |(Not Scored)
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|5.17 |Disable Fast User Switching |(Not Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|5.18 |Secure individual keychains and items |(Not Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|5.19 |Create specialized keychains for different purposes |(Not Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|5.20 |System Integrity Protection status |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|6 |User Accounts and Environment 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|6.1 |Accounts Preferences Action Items 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|6.1.1 |Display login window as name and password |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|6.1.2 |Disable "Show password hints" |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|6.1.3 |Disable guest account login |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|6.1.4 |Disable "Allow guests to connect to shared folders" |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|6.1.5 |Remove Guest home folder |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|6.2 |Turn on filename extensions |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|6.3 |Disable the automatic run of safe files in Safari |(Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|6.4 |Safari disable Internet Plugins for global use |(Not Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|7 |Appendix: Additional Considerations 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|7.1 |Wireless technology on macOS |(Not Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|7.2 |iSight Camera Privacy and Confidentiality Concerns |(Not Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|7.3 |Computer Name Considerations |(Not Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|7.4 |Software Inventory Considerations |(Not Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|7.5 |Firewall Consideration |(Not Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|7.6 |Automatic Actions for Optical Media |(Not Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|7.8 |Extensible Firmware Interface (EFI) password |(Not Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|7.9 |FileVault and Local Account Password Reset using AppleID |(Not Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|7.10 |Repairing permissions is no longer needed |(Not Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|7.11 |App Store Password Settings |(Not Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|7.12 |Siri on macOS |(Not Scored)
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|7.13 |Apple Watch features with macOS |(Not Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|7.14 |Apple File System (APFS) |(Not Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|7.15 |System information backup to remote computers |(Not Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|7.16 |Unified logging |(Not Scored) 
+CIS|Apple_macOS_10.12|Benchmark|v1.1.0|7.17 |AirDrop security considerations |(Not Scored)
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|1 |Install Updates, Patches and Additional Security Software 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|1.1 |Verify all Apple provided software is current |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|1.2 |Enable Auto Update |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|1.3 |Enable app update installs |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|1.4 |Enable system data files and security update installs |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|1.5 |Enable macOS update installs |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2 |System Preferences
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.1 |Bluetooth 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.1.1 |Turn off Bluetooth, if no paired devices exist |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.1.3 |Show Bluetooth status in menu bar |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.2 |Date & Time 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.2.1 |Enable "Set time and date automatically" |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.2.2 |Ensure time set is within appropriate limits |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.3 |Desktop & Screen Saver 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.3.2 |Secure screen saver corners |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.4 |Sharing
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.4.1 |Disable Remote Apple Events |(Scored)
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.4.2 |Disable Internet Sharing |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.4.3 |Disable Screen Sharing |(Scored)
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.4.4 |Disable Printer Sharing |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.4.5 |Disable Remote Login |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.4.6 |Disable DVD or CD Sharing |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.4.7 |Disable Bluetooth Sharing |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.4.8 |Disable File Sharing |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.4.9 |Disable Remote Management |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.5 |Energy Saver 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.5.1 |Disable "Wake for network access" |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.6 |Security & Privacy 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.6.1.1 |Enable FileVault |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.6.1.2 |Ensure all user storage APFS volumes are encrypted |(Not Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.6.2 |Enable Gatekeeper |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.6.3 |Enable Firewall |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.6.4 |Enable Firewall Stealth Mode |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.6.5 |Review Application Firewall Rules |(Scored)
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.6.6 |Enable Location Services |(Not Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.6.7 |Monitor Location Services Access |(Not Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.6.8 |Disable sending diagnostic and usage data to Apple |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.7 |iCloud 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.7.1 |iCloud configuration |(Not Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.7.2 |iCloud keychain |(Not Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.7.3 |iCloud Drive |(Not Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.7.4 |iCloud Drive Document sync |(Scored)
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.7.5 |iCloud Drive Desktop sync |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.8 |Time Machine 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.8.1 |Time Machine Auto-Backup |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.8.2 |Time Machine Volumes Are Encrypted |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.9 |Pair the remote control infrared receiver if enabled |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.10 |Enable Secure Keyboard Entry in terminal.app |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.11 |Java 6 is not the default Java runtime |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.12 |Securely delete files as needed |(Not Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|2.13 |Ensure EFI version is valid and being regularly checked |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|3 |Logging and Auditing 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|3.1 |Enable security auditing |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|3.2 |Configure Security Auditing Flags |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|3.3 |Ensure security auditing retention |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|3.4 |Control access to audit records |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|3.5 |Retain install.log for 365 or more days |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|3.6 |Ensure Firewall is configured to log |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|4 |Network Configurations
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|4.1 |Disable Bonjour advertising service |(Scored)
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|4.2 |Enable "Show Wi-Fi status in menu bar" |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|4.3 |Create network specific locations |(Not Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|4.4 |Ensure http server is not running |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|4.5 |Ensure nfs server is not running |(Scored)
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|5 |System Access, Authentication and Authorization 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|5.1 |File System Permissions and Access Controls 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|5.1.1 |Secure Home Folders |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|5.1.2 |Check System Wide Applications for appropriate permissions |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|5.1.3 |Check System folder for world writable files |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|5.1.4 |Check Library folder for world writable files |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|5.2 |Password Management 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|5.2.1 |Configure account lockout threshold |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|5.2.2 |Set a minimum password length |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|5.2.3 |Complex passwords must contain an Alphabetic Character |(Not Scored)
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|5.2.4 |Complex passwords must contain a Numeric Character |(Not Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|5.2.5 |Complex passwords must contain a Special Character |(Not Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|5.2.6 |Complex passwords must uppercase and lowercase letters |(Not Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|5.2.7 |Password Age |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|5.2.8 |Password History |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|5.3 |Reduce the sudo timeout period |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|5.4 |Use a separate timestamp for each user/tty combo |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|5.7 |Automatically lock the login keychain for inactivity |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|5.8 |Ensure login keychain is locked when the computer sleeps |(Scored)
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|5.9 |Enable OCSP and CRL certificate checking |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|5.11 |Do not enable the "root" account |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|5.12 |Disable automatic login |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|5.14 |Ensure system is set to hibernate |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|5.17 |Create a custom message for the Login Screen |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|5.18 |Create a Login window banner |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|5.19 |Do not enter a password-related hint |(Not Scored)
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|5.20 |Disable Fast User Switching |(Not Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|5.21 |Secure individual keychains and items |(Not Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|5.22 |Create specialized keychains for different purposes |(Not Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|5.23 |System Integrity Protection status |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|6 |User Accounts and Environment 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|6.1 |Accounts Preferences Action Items 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|6.1.1 |Display login window as name and password |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|6.1.2 |Disable "Show password hints" |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|6.1.3 |Disable guest account login |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|6.1.4 |Disable "Allow guests to connect to shared folders" |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|6.1.5 |Remove Guest home folder |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|6.2 |Turn on filename extensions |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|6.3 |Disable the automatic run of safe files in Safari |(Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|6.4 |Safari disable Internet Plugins for global use |(Not Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|7 |Appendix: Additional Considerations 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|7.1 |Wireless technology on macOS |(Not Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|7.2 |iSight Camera Privacy and Confidentiality Concerns |(Not Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|7.3 |Computer Name Considerations |(Not Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|7.4 |Software Inventory Considerations |(Not Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|7.5 |Firewall Consideration |(Not Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|7.6 |Automatic Actions for Optical Media |(Not Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|7.8 |Extensible Firmware Interface (EFI) password |(Not Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|7.9 |FileVault and Local Account Password Reset using AppleID |(Not Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|7.10 |Repairing permissions is no longer needed |(Not Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|7.11 |App Store Password Settings |(Not Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|7.12 |Siri on macOS |(Not Scored)
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|7.13 |Apple Watch features with macOS |(Not Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|7.14 |System information backup to remote computers |(Not Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|7.15 |Unified logging |(Not Scored) 
+CIS|Apple_macOS_10.13|Benchmark|v1.0.0|7.16 |AirDrop security considerations |(Not Scored)
 CIS|CentOS_Linux_6|Benchmark|v2.1.0|1 |Initial Setup 
 CIS|CentOS_Linux_6|Benchmark|v2.1.0|1.1 |Filesystem Configuration 
 CIS|CentOS_Linux_6|Benchmark|v2.1.0|1.1.1.1 |Ensure mounting of cramfs filesystems is disabled |(Scored) 
@@ -2725,6 +3202,45 @@ CIS|Google_Android|Benchmark|v1.1.0|2.8 |Ensure 'YouTube Search History' is set 
 CIS|Google_Android|Benchmark|v1.1.0|2.9 |Ensure 'YouTube Watch History' is set to Disabled |(Not Scored) 
 CIS|Google_Android|Benchmark|v1.1.0|2.10 |Ensure 'Google Location History' is set to Disabled |(Not Scored) 
 CIS|Google_Android|Benchmark|v1.1.0|2.11 |Ensure 'Opt out of Ads Personalization' is set to Enabled |(Not Scored) 
+CIS|Google_Android|Benchmark|v1.2.0|1 |Android OS Security Settings 
+CIS|Google_Android|Benchmark|v1.2.0|1.1 |(L1) Ensure device firmware is up to date |(Not Scored) 
+CIS|Google_Android|Benchmark|v1.2.0|1.2 |(L1) Ensure 'Screen Lock' is set to 'Enabled' |(Not Scored) 
+CIS|Google_Android|Benchmark|v1.2.0|1.4 |(L1) Ensure 'Automatically Lock' is set to 'Immediately' |(Not Scored) 
+CIS|Google_Android|Benchmark|v1.2.0|1.5 |(L1) Ensure 'Power button instantly locks' is set to 'Enabled' |(Not Scored) 
+CIS|Google_Android|Benchmark|v1.2.0|1.6 |(L1) Ensure 'Lock Screen Message' is configured |(Not Scored)
+CIS|Google_Android|Benchmark|v1.2.0|1.7 |(L2) Do not connect to untrusted Wi-Fi networks |(Not Scored) 
+CIS|Google_Android|Benchmark|v1.2.0|1.8 |(L2) Ensure 'Show passwords' is set to 'Disabled' |(Not Scored) 
+CIS|Google_Android|Benchmark|v1.2.0|1.9 |(L1) Ensure 'Developer Options' is set to 'Disabled' |(Not Scored) 
+CIS|Google_Android|Benchmark|v1.2.0|1.10 |(L1) Ensure 'Install unknown apps' is set to 'Disabled' |(Not Scored) 
+CIS|Google_Android|Benchmark|v1.2.0|1.11 |(L1) Do not root your device |(Not Scored) 
+CIS|Google_Android|Benchmark|v1.2.0|1.12 |(L2) Ensure 'Smart Lock' is set to 'Disabled' |(Not Scored)
+CIS|Google_Android|Benchmark|v1.2.0|1.13 |(L2) Ensure 'Lock SIM card' is set to 'Enabled' |(Not Scored) 
+CIS|Google_Android|Benchmark|v1.2.0|1.14 |(L2) Ensure 'Find My Device' is set to 'Enabled' |(Not Scored) 
+CIS|Google_Android|Benchmark|v1.2.0|1.16 |(L1) Ensure 'Remotely locate this device' is set to 'Enabled' |(Not Scored) 
+CIS|Google_Android|Benchmark|v1.2.0|1.17 |(L1) Ensure 'Allow remote lock and erase' is set to 'Enabled' |(Not Scored) 
+CIS|Google_Android|Benchmark|v1.2.0|1.21 |(L1) Ensure 'Sleep' is set to '1 minute or less' |(Not Scored) 
+CIS|Google_Android|Benchmark|v1.2.0|1.22 |(L1) Ensure 'Wi-Fi assistant' is set to 'Disabled' |(Not Scored) 
+CIS|Google_Android|Benchmark|v1.2.0|1.23 |(L1) Keep device Apps up to date |(Not Scored)
+CIS|Google_Android|Benchmark|v1.2.0|1.24 |(L1) Ensure 'Add users from lock screen' is set to 'Disabled' |(Not Scored) 
+CIS|Google_Android|Benchmark|v1.2.0|1.25 |(L1) Ensure 'Guest profiles' do not exist |(Not Scored) 
+CIS|Google_Android|Benchmark|v1.2.0|1.26 |(L1) Review app permissions periodically |(Not Scored) 
+CIS|Google_Android|Benchmark|v1.2.0|1.27 |(L1) Ensure 'Instant apps' is set to 'Disabled' |(Not Scored) 
+CIS|Google_Android|Benchmark|v1.2.0|2 |Android OS Privacy Settings
+CIS|Google_Android|Benchmark|v1.2.0|2.2 |(L2) Ensure 'Location Services' is set to 'Disabled' |(Not Scored)
+CIS|Google_Android|Benchmark|v1.2.0|2.3 |(L2) Ensure 'Back up to Google Drive' is 'Disabled' |(Not Scored) 
+CIS|Google_Android|Benchmark|v1.2.0|2.4 |(L1) Ensure 'Web and App Activity' is set to 'Disabled' |(Not Scored) 
+CIS|Google_Android|Benchmark|v1.2.0|2.5 |(L1) Ensure 'Device Information' is set to 'Disabled' |(Not Scored) 
+CIS|Google_Android|Benchmark|v1.2.0|2.6 |(L1) Ensure 'Voice & Audio Activity' is set to 'Disabled' |(Not Scored) 
+CIS|Google_Android|Benchmark|v1.2.0|2.7 |(L1) Ensure 'YouTube Search History' is set to 'Disabled' |(Not Scored) 
+CIS|Google_Android|Benchmark|v1.2.0|2.8 |(L1) Ensure 'YouTube Watch History' is set to 'Disabled' |(Not Scored)
+CIS|Google_Android|Benchmark|v1.2.0|2.9 |(L1) Ensure 'Google Location History' is set to 'Disabled' |(Not Scored) 
+CIS|Google_Android|Benchmark|v1.2.0|3 |Android OS Chrome Browser Settings 
+CIS|Google_Android|Benchmark|v1.2.0|3.1 |(L1) Ensure 'Microphone' is set to 'Enabled' |(Not Scored) 
+CIS|Google_Android|Benchmark|v1.2.0|3.2 |(L1) Ensure 'Location' is set to 'Enabled' |(Not Scored) 
+CIS|Google_Android|Benchmark|v1.2.0|3.3 |(L1) Ensure 'Allow third-party cookies' is set to 'Disabled' |(Not Scored) 
+CIS|Google_Android|Benchmark|v1.2.0|3.4 |(L1) Ensure 'Safe Browsing' is set to 'Enabled' |(Not Scored) 
+CIS|Google_Android|Benchmark|v1.2.0|3.5 |(L2) Ensure 'Search and site suggestions' is set to 'Disabled' |(Not Scored) 
+CIS|Google_Android|Benchmark|v1.2.0|3.6 |(L2) Ensure 'Do Not Track' is set to 'Enabled' |(Not Scored) 
 CIS|Google_Chrome|Benchmark|v1.2.0|1 |Computer Configuration 
 CIS|Google_Chrome|Benchmark|v1.2.0|1.1 |Google Chrome 
 CIS|Google_Chrome|Benchmark|v1.2.0|1.1.4 |(L1) Ensure 'Block third party cookies' is set to 'Enabled' |(Scored) 
@@ -2743,6 +3259,36 @@ CIS|Google_Chrome|Benchmark|v1.2.0|1.11.1 |(L1) Ensure 'Enable the password mana
 CIS|Google_Chrome|Benchmark|v1.2.0|1.12 |Policies for HTTP Authentication 
 CIS|Google_Chrome|Benchmark|v1.2.0|1.13 |Proxy Server 
 CIS|Google_Chrome|Benchmark|v1.2.0|1.14 |Startup Pages
+CIS|Google_Chrome|Benchmark|v1.3.0|1 |Computer Configuration 
+CIS|Google_Chrome|Benchmark|v1.3.0|1.1 |Google Chrome 
+CIS|Google_Chrome|Benchmark|v1.3.0|1.1.17 |(L1) Ensure 'Block third party cookies' is set to 'Enabled' |(Scored) 
+CIS|Google_Chrome|Benchmark|v1.3.0|1.1.19 |(L1) Ensure 'Enable AutoFill' is set to 'Disabled' |(Scored) 
+CIS|Google_Cloud_Platform_Foundation|Benchmark|v1.0.0|1 |Identity and Access Management
+CIS|Google_Cloud_Platform_Foundation|Benchmark|v1.0.0|1.4 |Ensure that ServiceAccount has no Admin privileges. |(Scored) 
+CIS|Google_Cloud_Platform_Foundation|Benchmark|v1.0.0|1.8 |Ensure Encryption keys are rotated within a period of 365 days |(Scored) 
+CIS|Google_Cloud_Platform_Foundation|Benchmark|v1.0.0|1.10 |Ensure API keys are not created for a project |(Not Scored) 
+CIS|Google_Cloud_Platform_Foundation|Benchmark|v1.0.0|1.13 |Ensure API keys are rotated every 90 days |(Scored) 
+CIS|Google_Cloud_Platform_Foundation|Benchmark|v1.0.0|2 |Logging and Monitoring 
+CIS|Google_Cloud_Platform_Foundation|Benchmark|v1.0.0|2.2 |Ensure that sinks are configured for all Log entries |(Scored) 
+CIS|Google_Cloud_Platform_Foundation|Benchmark|v1.0.0|2.3 |Ensure that object versioning is enabled on log-buckets |(Scored)
+CIS|Google_Cloud_Platform_Foundation|Benchmark|v1.0.0|2.6 |Ensure log metric filter and alerts exists for Custom Role changes |(Scored) 
+CIS|Google_Cloud_Platform_Foundation|Benchmark|v1.0.0|2.9 |Ensure log metric filter and alerts exists for VPC network changes |(Scored) 
+CIS|Google_Cloud_Platform_Foundation|Benchmark|v1.0.0|3 |Networking 
+CIS|Google_Cloud_Platform_Foundation|Benchmark|v1.0.0|3.1 |Ensure the default network does not exist in a project |(Scored) 
+CIS|Google_Cloud_Platform_Foundation|Benchmark|v1.0.0|3.2 |Ensure legacy networks does not exists for a project |(Scored) 
+CIS|Google_Cloud_Platform_Foundation|Benchmark|v1.0.0|3.3 |Ensure that DNSSEC is enabled for Cloud DNS |(Not Scored) 
+CIS|Google_Cloud_Platform_Foundation|Benchmark|v1.0.0|3.6 |Ensure that SSH access is restricted from the internet |(Scored) 
+CIS|Google_Cloud_Platform_Foundation|Benchmark|v1.0.0|3.7 |Ensure that RDP access is restricted from the internet |(Scored) 
+CIS|Google_Cloud_Platform_Foundation|Benchmark|v1.0.0|4 |Virtual Machines 
+CIS|Google_Cloud_Platform_Foundation|Benchmark|v1.0.0|4.2 |Ensure "Block Project-wide SSH keys" enabled for VM instances |(Scored) 
+CIS|Google_Cloud_Platform_Foundation|Benchmark|v1.0.0|4.3 |Ensure oslogin is enabled for a Project |(Scored) 
+CIS|Google_Cloud_Platform_Foundation|Benchmark|v1.0.0|4.5 |Ensure that IP forwarding is not enabled on Instances |(Not Scored) 
+CIS|Google_Cloud_Platform_Foundation|Benchmark|v1.0.0|5 |Storage 
+CIS|Google_Cloud_Platform_Foundation|Benchmark|v1.0.0|5.3 |Ensure that logging is enabled for Cloud storage buckets |(Scored) 
+CIS|Google_Cloud_Platform_Foundation|Benchmark|v1.0.0|6 |Cloud SQL Database Services 
+CIS|Google_Cloud_Platform_Foundation|Benchmark|v1.0.0|7 |Kubernetes Engine 
+CIS|Google_Cloud_Platform_Foundation|Benchmark|v1.0.0|7.5 |Ensure Kubernetes Clusters are configured with Labels |(Not Scored) 
+CIS|Google_Cloud_Platform_Foundation|Benchmark|v1.0.0|7.6 |Ensure Kubernetes web UI / Dashboard is disabled |(Scored) 
 CIS|IBM_AIX_7.1|Benchmark|v1.1.0|1 |Introduction 
 CIS|IBM_AIX_7.1|Benchmark|v1.1.0|1.1 |Approach 
 CIS|IBM_AIX_7.1|Benchmark|v1.1.0|1.2 |Maintenance Cadence 
@@ -3473,6 +4019,61 @@ CIS|Kubernetes|Benchmark|v1.2.0|3.1.7 |Ensure that the --profiling argument is s
 CIS|Kubernetes|Benchmark|v1.2.0|3.1.15 |Ensure that the --token-auth-file parameter is not set |(Scored) 
 CIS|Kubernetes|Benchmark|v1.2.0|3.2 |Federation Controller Manager 
 CIS|Kubernetes|Benchmark|v1.2.0|3.2.1 |Ensure that the --profiling argument is set to false |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1 |Master Node Security Configuration 
+CIS|Kubernetes|Benchmark|v1.3.0|1.1 |API Server
+CIS|Kubernetes|Benchmark|v1.3.0|1.1.1 |Ensure that the --anonymous-auth argument is set to false |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1.1.2 |Ensure that the --basic-auth-file argument is not set |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1.1.3 |Ensure that the --insecure-allow-any-token argument is not set |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1.1.4 |Ensure that the --kubelet-https argument is set to true |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1.1.5 |Ensure that the --insecure-bind-address argument is not set |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1.1.6 |Ensure that the --insecure-port argument is set to 0 |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1.1.7 |Ensure that the --secure-port argument is not set to 0 |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1.1.8 |Ensure that the --profiling argument is set to false |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1.1.15 |Ensure that the --audit-log-path argument is set as appropriate |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1.1.20 |Ensure that the --token-auth-file parameter is not set |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1.1.27 |Ensure that the admission control plugin ServiceAccount is set |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1.1.29 |Ensure that the --client-ca-file argument is set as appropriate |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1.1.31 |Ensure that the --etcd-cafile argument is set as appropriate |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1.1.32 |Ensure that the --authorization-mode argument is set to Node |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1.1.35 |Ensure that the encryption provider is set to aescbc |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1.1.36 |Ensure that the admission control plugin EventRateLimit is set |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1.1.37 |Ensure that the AdvancedAuditing argument is not set to false |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1.2 |Scheduler 
+CIS|Kubernetes|Benchmark|v1.3.0|1.2.1 |Ensure that the --profiling argument is set to false |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1.2.2 |Ensure that the --address argument is set to 127.0.0.1 |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1.3 |Controller Manager 
+CIS|Kubernetes|Benchmark|v1.3.0|1.3.2 |Ensure that the --profiling argument is set to false |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1.3.5 |Ensure that the --root-ca-file argument is set as appropriate |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1.3.7 |Ensure that the --address argument is set to 127.0.0.1 |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1.4 |Configuration Files
+CIS|Kubernetes|Benchmark|v1.3.0|644 |or more restrictive |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1.4.14 |Ensure that the admin.conf file ownership is set to root:root |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1.5 |etcd 
+CIS|Kubernetes|Benchmark|v1.3.0|1.5.2 |Ensure that the --client-cert-auth argument is set to true |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1.5.3 |Ensure that the --auto-tls argument is not set to true |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1.5.5 |Ensure that the --peer-client-cert-auth argument is set to true |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1.5.6 |Ensure that the --peer-auto-tls argument is not set to true |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1.5.7 |Ensure that a unique Certificate Authority is used for etcd |(Not Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1.6 |General Security Primitives
+CIS|Kubernetes|Benchmark|v1.3.0|1.6.3 |Create network segmentation using Network Policies |(Not Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1.6.5 |Apply Security Context to Your Pods and Containers |(Not Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1.6.7 |Configure Network policies as appropriate |(Not Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1.7 |PodSecurityPolicies 
+CIS|Kubernetes|Benchmark|v1.3.0|1.7.1 |Do not admit privileged containers |(Not Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1.7.5 |Do not admit containers with allowPrivilegeEscalation |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1.7.6 |Do not admit root containers |(Not Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|1.7.7 |Do not admit containers with dangerous capabilities |(Not Scored)
+CIS|Kubernetes|Benchmark|v1.3.0|2 |Worker Node Security Configuration 
+CIS|Kubernetes|Benchmark|v1.3.0|2.1 |Kubelet 
+CIS|Kubernetes|Benchmark|v1.3.0|2.1.1 |Ensure that the --allow-privileged argument is set to false |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|2.1.2 |Ensure that the --anonymous-auth argument is set to false |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|2.1.4 |Ensure that the --client-ca-file argument is set as appropriate |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|2.1.5 |Ensure that the --read-only-port argument is set to 0 |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|2.1.9 |Ensure that the --hostname-override argument is not set |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|2.1.10 |Ensure that the --event-qps argument is set to 0 |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|2.1.12 |Ensure that the --cadvisor-port argument is set to 0 |(Scored) 
+CIS|Kubernetes|Benchmark|v1.3.0|2.2 |Configuration Files
+CIS|Kubernetes|Benchmark|v1.3.0|2.2.2 |Ensure that the kubelet.conf file ownership is set to root:root |(Scored) 
 CIS|MIT_Kerberos_1.10|Benchmark|v1.0.0|1 |Kerberos Runtime
 CIS|MIT_Kerberos_1.10|Benchmark|v1.0.0|1.1 |Secure the KDC daemon (krb5kdc) |(Scored) 
 CIS|MIT_Kerberos_1.10|Benchmark|v1.0.0|1.2 |Secure the Kerberos administration server daemon (kadmind) |(Scored)
@@ -4343,6 +4944,61 @@ CIS|Microsoft_Windows_10_Enterprise_Release_1703|Benchmark|v1.3.0|3 |Event Log
 CIS|Microsoft_Windows_10_Enterprise_Release_1703|Benchmark|v1.3.0|4 |Restricted Groups 
 CIS|Microsoft_Windows_10_Enterprise_Release_1703|Benchmark|v1.3.0|5 |System Services 
 CIS|Microsoft_Windows_10_Enterprise_Release_1703|Benchmark|v1.3.0|5.5 |(L2) Ensure 'Geolocation Service (lfsvc)' is set to 'Disabled' |(Scored)
+CIS|Microsoft_Windows_10_Enterprise_Release_1709|Benchmark|v1.4.0|1 |Account Policies 
+CIS|Microsoft_Windows_10_Enterprise_Release_1709|Benchmark|v1.4.0|1.1 |Password Policy 
+CIS|Microsoft_Windows_10_Enterprise_Release_1709|Benchmark|v1.4.0|1.1.3 |(L1) Ensure 'Minimum password age' is set to '1 or more day(s)' |(Scored) 
+CIS|Microsoft_Windows_10_Enterprise_Release_1709|Benchmark|v1.4.0|1.2 |Account Lockout Policy 
+CIS|Microsoft_Windows_10_Enterprise_Release_1709|Benchmark|v1.4.0|2 |Local Policies 
+CIS|Microsoft_Windows_10_Enterprise_Release_1709|Benchmark|v1.4.0|2.1 |Audit Policy
+CIS|Microsoft_Windows_10_Enterprise_Release_1709|Benchmark|v1.4.0|2.2 |User Rights Assignment 
+CIS|Microsoft_Windows_10_Enterprise_Release_1709|Benchmark|v1.4.0|2.2.10 |(L1) Ensure 'Create a pagefile' is set to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_10_Enterprise_Release_1709|Benchmark|v1.4.0|2.2.11 |(L1) Ensure 'Create a token object' is set to 'No One' |(Scored) 
+CIS|Microsoft_Windows_10_Enterprise_Release_1709|Benchmark|v1.4.0|2.2.14 |(L1) Configure 'Create symbolic links' |(Scored) 
+CIS|Microsoft_Windows_10_Enterprise_Release_1709|Benchmark|v1.4.0|2.2.15 |(L1) Ensure 'Debug programs' is set to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_10_Enterprise_Release_1709|Benchmark|v1.4.0|2.2.17 |(L1) Ensure 'Deny log on as a batch job' to include 'Guests' |(Scored) 
+CIS|Microsoft_Windows_10_Enterprise_Release_1709|Benchmark|v1.4.0|2.2.18 |(L1) Ensure 'Deny log on as a service' to include 'Guests' |(Scored)
+CIS|Microsoft_Windows_10_Enterprise_Release_1709|Benchmark|v1.4.0|2.2.19 |(L1) Ensure 'Deny log on locally' to include 'Guests' |(Scored) 
+CIS|Microsoft_Windows_10_Enterprise_Release_1709|Benchmark|v1.4.0|2.2.27 |(L1) Ensure 'Lock pages in memory' is set to 'No One' |(Scored) 
+CIS|Microsoft_Windows_10_Enterprise_Release_1709|Benchmark|v1.4.0|2.2.28 |(L2) Ensure 'Log on as a batch job' is set to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_10_Enterprise_Release_1709|Benchmark|v1.4.0|2.2.29 |(L2) Ensure 'Log on as a service' is set to 'No One' |(Scored) 
+CIS|Microsoft_Windows_10_Enterprise_Release_1709|Benchmark|v1.4.0|2.2.31 |(L1) Ensure 'Modify an object label' is set to 'No One' |(Scored) 
+CIS|Microsoft_Windows_10_Enterprise_Release_1709|Benchmark|v1.4.0|2.2.34 |(L1) Ensure 'Profile single process' is set to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_10_Enterprise_Release_1709|Benchmark|v1.4.0|2.3 |Security Options 
+CIS|Microsoft_Windows_10_Enterprise_Release_1709|Benchmark|v1.4.0|2.3.1.5 |(L1) Configure 'Accounts: Rename administrator account' |(Scored) 
+CIS|Microsoft_Windows_10_Enterprise_Release_1709|Benchmark|v1.4.0|2.3.1.6 |(L1) Configure 'Accounts: Rename guest account' |(Scored) 
+CIS|Microsoft_Windows_10_Enterprise_Release_1709|Benchmark|v1.4.0|2.3.8.3 |(L1) Ensure 'Microsoft network client: Send unencrypted password to thirdparty SMB servers' is set to 'Disabled' |(Scored) 
+CIS|Microsoft_Windows_10_Enterprise_Release_1709|Benchmark|v1.4.0|2.3.10.8 |(L1) Ensure 'Network access: Remotely accessible registry paths and subpaths' |(Scored) 
+CIS|Microsoft_Windows_10_Enterprise_Release_1709|Benchmark|v1.4.0|3 |Event Log 
+CIS|Microsoft_Windows_10_Enterprise_Release_1709|Benchmark|v1.4.0|4 |Restricted Groups 
+CIS|Microsoft_Windows_10_Enterprise_Release_1709|Benchmark|v1.4.0|5 |System Services 
+CIS|Microsoft_Windows_10_Enterprise_Release_1709|Benchmark|v1.4.0|5.5 |(L2) Ensure 'Geolocation Service (lfsvc)' is set to 'Disabled' |(Scored) 
+CIS|Microsoft_Windows_7_Workstation|Benchmark|v3.1.0|1 |Account Policies 
+CIS|Microsoft_Windows_7_Workstation|Benchmark|v3.1.0|1.1 |Password Policy 
+CIS|Microsoft_Windows_7_Workstation|Benchmark|v3.1.0|1.1.3 |(L1) Ensure 'Minimum password age' is set to '1 or more day(s)' |(Scored) 
+CIS|Microsoft_Windows_7_Workstation|Benchmark|v3.1.0|1.2 |Account Lockout Policy 
+CIS|Microsoft_Windows_7_Workstation|Benchmark|v3.1.0|2 |Local Policies 
+CIS|Microsoft_Windows_7_Workstation|Benchmark|v3.1.0|2.1 |Audit Policy
+CIS|Microsoft_Windows_7_Workstation|Benchmark|v3.1.0|2.2 |User Rights Assignment 
+CIS|Microsoft_Windows_7_Workstation|Benchmark|v3.1.0|2.2.10 |(L1) Ensure 'Create a pagefile' is set to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_7_Workstation|Benchmark|v3.1.0|2.2.11 |(L1) Ensure 'Create a token object' is set to 'No One' |(Scored) 
+CIS|Microsoft_Windows_7_Workstation|Benchmark|v3.1.0|2.2.14 |(L1) Configure 'Create symbolic links' |(Scored) 
+CIS|Microsoft_Windows_7_Workstation|Benchmark|v3.1.0|2.2.15 |(L1) Ensure 'Debug programs' is set to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_7_Workstation|Benchmark|v3.1.0|2.2.17 |(L1) Ensure 'Deny log on as a batch job' to include 'Guests' |(Scored) 
+CIS|Microsoft_Windows_7_Workstation|Benchmark|v3.1.0|2.2.18 |(L1) Ensure 'Deny log on as a service' to include 'Guests' |(Scored)
+CIS|Microsoft_Windows_7_Workstation|Benchmark|v3.1.0|2.2.19 |(L1) Ensure 'Deny log on locally' to include 'Guests' |(Scored) 
+CIS|Microsoft_Windows_7_Workstation|Benchmark|v3.1.0|2.2.27 |(L1) Ensure 'Lock pages in memory' is set to 'No One' |(Scored) 
+CIS|Microsoft_Windows_7_Workstation|Benchmark|v3.1.0|2.2.28 |(L2) Ensure 'Log on as a batch job' is set to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_7_Workstation|Benchmark|v3.1.0|2.2.29 |(L2) Ensure 'Log on as a service' is set to 'No One' |(Scored) 
+CIS|Microsoft_Windows_7_Workstation|Benchmark|v3.1.0|2.2.31 |(L1) Ensure 'Modify an object label' is set to 'No One' |(Scored) 
+CIS|Microsoft_Windows_7_Workstation|Benchmark|v3.1.0|2.2.34 |(L1) Ensure 'Profile single process' is set to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_7_Workstation|Benchmark|v3.1.0|2.3 |Security Options 
+CIS|Microsoft_Windows_7_Workstation|Benchmark|v3.1.0|2.3.1.4 |(L1) Configure 'Accounts: Rename administrator account' |(Scored) 
+CIS|Microsoft_Windows_7_Workstation|Benchmark|v3.1.0|2.3.1.5 |(L1) Configure 'Accounts: Rename guest account' |(Scored) 
+CIS|Microsoft_Windows_7_Workstation|Benchmark|v3.1.0|2.3.8.3 |(L1) Ensure 'Microsoft network client: Send unencrypted password to thirdparty SMB servers' is set to 'Disabled' |(Scored) 
+CIS|Microsoft_Windows_7_Workstation|Benchmark|v3.1.0|2.3.10.8 |(L1) Ensure 'Network access: Remotely accessible registry paths and subpaths' |(Scored) 
+CIS|Microsoft_Windows_7_Workstation|Benchmark|v3.1.0|3 |Event Log 
+CIS|Microsoft_Windows_7_Workstation|Benchmark|v3.1.0|4 |Restricted Groups 
+CIS|Microsoft_Windows_7_Workstation|Benchmark|v3.1.0|5 |System Services 
 CIS|Microsoft_Windows_8.1_Workstation|Benchmark|v2.3.0|1 |Account Policies 
 CIS|Microsoft_Windows_8.1_Workstation|Benchmark|v2.3.0|1.1 |Password Policy 
 CIS|Microsoft_Windows_8.1_Workstation|Benchmark|v2.3.0|1.1.3 |(L1) Ensure 'Minimum password age' is set to '1 or more day(s)' |(Scored) 
@@ -4511,6 +5167,43 @@ CIS|Microsoft_Windows_Server_2008_R2|Benchmark|v3.1.0|8 |Wired Network (IEEE 802
 CIS|Microsoft_Windows_Server_2008_R2|Benchmark|v3.1.0|9 |Windows Firewall with Advanced Security 
 CIS|Microsoft_Windows_Server_2008_R2|Benchmark|v3.1.0|9.1 |Domain Profile
 CIS|Microsoft_Windows_Server_2008_R2|Benchmark|v3.1.0|9.2 |Private Profile 
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|1 |Account Policies 
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|1.1 |Password Policy 
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|1.1.3 |(L1) Ensure 'Minimum password age' is set to '1 or more day(s)' |(Scored) 
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|1.2 |Account Lockout Policy 
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|2 |Local Policies 
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|2.1 |Audit Policy
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|2.2 |User Rights Assignment 
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|2.2.2 |(L1) Configure 'Access this computer from the network' |(Scored) 
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|2.2.6 |(L1) Configure 'Allow log on locally' |(Scored)
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|2.2.7 |(L1) Configure 'Allow log on through Remote Desktop Services' |(Scored) 
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|2.2.11 |(L1) Ensure 'Create a pagefile' is set to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|2.2.12 |(L1) Ensure 'Create a token object' is set to 'No One' |(Scored) 
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|2.2.15 |(L1) Ensure 'Create symbolic links' is set to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|2.2.16 |(L1) Ensure 'Debug programs' is set to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|2.2.18 |(L1) Ensure 'Deny log on as a batch job' to include 'Guests' |(Scored) 
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|2.2.19 |(L1) Ensure 'Deny log on as a service' to include 'Guests' |(Scored)
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|2.2.20 |(L1) Ensure 'Deny log on locally' to include 'Guests' |(Scored) 
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|2.2.25 |(L1) Configure 'Impersonate a client after authentication' |(Scored) 
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|2.2.28 |(L1) Ensure 'Lock pages in memory' is set to 'No One' |(Scored) 
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|2.2.30 |(L1) Configure 'Manage auditing and security log' |(Scored) 
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|2.2.31 |(L1) Ensure 'Modify an object label' is set to 'No One' |(Scored) 
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|2.2.34 |(L1) Ensure 'Profile single process' is set to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|2.2.38 |(L1) Ensure 'Shut down the system' is set to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|2.3 |Security Options 
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|2.3.1.4 |(L1) Configure 'Accounts: Rename administrator account' |(Scored) 
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|2.3.1.5 |(L1) Configure 'Accounts: Rename guest account' |(Scored) 
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|2.3.8.3 |(L1) Ensure 'Microsoft network client: Send unencrypted password to thirdparty SMB servers' is set to 'Disabled' |(Scored) 
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|2.3.10.8 |(L1) Ensure 'Network access: Remotely accessible registry paths and subpaths' |(Scored) 
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|3 |Event Log 
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|4 |Restricted Groups 
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|5 |System Services 
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|6 |Registry
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|7 |File System 
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|8 |Wired Network (IEEE 802.3) Policies 
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|9 |Windows Firewall With Advanced Security
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|9.1 |Domain Profile
+CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.0|9.2 |Private Profile 
 CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.1|1 |Account Policies 
 CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.1|1.1 |Password Policy 
 CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.0.1|1.1.3 |(L1) Ensure 'Minimum password age' is set to '1 or more day(s)' |(Scored) 
@@ -4583,6 +5276,87 @@ CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.1.0|8 |Wired Network (IEEE
 CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.1.0|9 |Windows Firewall with Advanced Security 
 CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.1.0|9.1 |Domain Profile
 CIS|Microsoft_Windows_Server_2008_non-R2|Benchmark|v3.1.0|9.2 |Private Profile 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|1 |Account Policies 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|1.1 |Password Policy 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|1.1.1 |(L1) Set 'Enforce password history' to '24 or more password(s)' |(Scored)
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|1.1.3 |(L1) Set 'Minimum password age' to '1 or more day(s)' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|1.2 |Account Lockout Policy 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|1.2.1 |(L1) Set 'Account lockout duration' to '15 or more minute(s)' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|2 |Local Policies 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|2.1 |Audit Policy
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|2.2 |User Rights Assignment 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|2.2.2 |(L1) Configure 'Access this computer from the network' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|2.2.3 |(L1) Set 'Act as part of the operating system' to 'No One' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|2.2.4 |(L1) Set 'Add workstations to domain' to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|2.2.6 |(L1) Configure 'Allow log on locally' |(Scored)
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|2.2.7 |(L1) Configure 'Allow log on through Remote Desktop Services' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|2.2.8 |(L1) Set 'Back up files and directories' to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|2.2.11 |(L1) Set 'Create a pagefile' to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|2.2.12 |(L1) Set 'Create a token object' to 'No One' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|2.2.14 |(L1) Set 'Create permanent shared objects' to 'No One' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|2.2.15 |(L1) Configure 'Create symbolic links' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|2.2.16 |(L1) Set 'Debug programs' to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|2.2.18 |(L1) Set 'Deny log on as a batch job' to include 'Guests' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|2.2.19 |(L1) Set 'Deny log on as a service' to include 'Guests' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|2.2.20 |(L1) Set 'Deny log on locally' to include 'Guests' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|2.2.25 |(L1) Configure 'Impersonate a client after authentication' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|2.2.26 |(L1) Set 'Increase scheduling priority' to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|2.2.27 |(L1) Set 'Load and unload device drivers' to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|2.2.28 |(L1) Set 'Lock pages in memory' to 'No One' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|2.2.29 |(L1) Configure 'Manage auditing and security log' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|2.2.30 |(L1) Set 'Modify an object label' to 'No One' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|2.2.33 |(L1) Set 'Profile single process' to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|2.2.36 |(L1) Set 'Restore files and directories' to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|2.2.37 |(L1) Set 'Shut down the system' to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|2.2.38 |(L1) Set 'Synchronize directory service data' to 'No One' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|2.3 |Security Options 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|2.3.1.3 |(L1) Set 'Accounts: Guest account status' to 'Disabled' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|2.3.1.5 |(L1) Configure 'Accounts: Rename administrator account' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|2.3.1.6 |(L1) Configure 'Accounts: Rename guest account' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.0.0|2.3.8.3 |(L1) Set 'Microsoft network client: Send unencrypted password to thirdparty SMB servers' to 'Disabled' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|1 |Account Policies 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|1.1 |Password Policy 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|1.1.3 |(L1) Set 'Minimum password age' to '1 or more day(s)' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|1.2 |Account Lockout Policy 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|2 |Local Policies 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|2.1 |Audit Policy
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|2.2 |User Rights Assignment 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|2.2.2 |(L1) Configure 'Access this computer from the network' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|2.2.3 |(L1) Set 'Act as part of the operating system' to 'No One' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|2.2.6 |(L1) Configure 'Allow log on locally' |(Scored)
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|2.2.7 |(L1) Configure 'Allow log on through Remote Desktop Services' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|2.2.8 |(L1) Set 'Back up files and directories' to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|2.2.11 |(L1) Set 'Create a pagefile' to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|2.2.12 |(L1) Set 'Create a token object' to 'No One' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|2.2.14 |(L1) Set 'Create permanent shared objects' to 'No One' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|2.2.15 |(L1) Configure 'Create symbolic links' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|2.2.16 |(L1) Set 'Debug programs' to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|2.2.18 |(L1) Set 'Deny log on as a batch job' to include 'Guests' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|2.2.19 |(L1) Set 'Deny log on as a service' to include 'Guests' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|2.2.20 |(L1) Set 'Deny log on locally' to include 'Guests' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|2.2.25 |(L1) Configure 'Impersonate a client after authentication' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|2.2.26 |(L1) Set 'Increase scheduling priority' to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|2.2.27 |(L1) Set 'Load and unload device drivers' to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|2.2.28 |(L1) Set 'Lock pages in memory' to 'No One' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|2.2.29 |(L1) Configure 'Manage auditing and security log' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|2.2.30 |(L1) Set 'Modify an object label' to 'No One' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|2.2.33 |(L1) Set 'Profile single process' to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|2.2.36 |(L1) Set 'Restore files and directories' to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|2.2.37 |(L1) Set 'Shut down the system' to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|2.3 |Security Options 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|2.3.1.3 |(L1) Set 'Accounts: Guest account status' to 'Disabled' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|2.3.1.5 |(L1) Configure 'Accounts: Rename administrator account' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|2.3.1.6 |(L1) Configure 'Accounts: Rename guest account' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|2.3.8.3 |(L1) Set 'Microsoft network client: Send unencrypted password to thirdparty SMB servers' to 'Disabled' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|3 |Event Log 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|4 |Restricted Groups 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|5 |System Services 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|6 |Registry
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|7 |File System 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|8 |Wired Network (IEEE 802.3) Policies 
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|9 |Windows Firewall With Advanced Security
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|9.1 |Domain Profile
+CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.1.0|9.2 |Private Profile 
 CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.3.0|1 |Account Policies 
 CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.3.0|1.1 |Password Policy 
 CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.3.0|1.1.3 |(L1) Ensure 'Minimum password age' is set to '1 or more day(s)' |(Scored) 
@@ -4620,6 +5394,43 @@ CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.3.0|8 |Wired Network (IEEE 802
 CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.3.0|9 |Windows Firewall with Advanced Security 
 CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.3.0|9.1 |Domain Profile
 CIS|Microsoft_Windows_Server_2012_R2|Benchmark|v2.3.0|9.2 |Private Profile 
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|1 |Account Policies 
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|1.1 |Password Policy 
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|1.1.3 |(L1) Ensure 'Minimum password age' is set to '1 or more day(s)' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|1.2 |Account Lockout Policy 
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|2 |Local Policies 
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|2.1 |Audit Policy
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|2.2 |User Rights Assignment 
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|2.2.2 |(L1) Configure 'Access this computer from the network' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|2.2.6 |(L1) Configure 'Allow log on locally' |(Scored)
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|2.2.7 |(L1) Configure 'Allow log on through Remote Desktop Services' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|2.2.11 |(L1) Ensure 'Create a pagefile' is set to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|2.2.12 |(L1) Ensure 'Create a token object' is set to 'No One' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|2.2.15 |(L1) Configure 'Create symbolic links' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|2.2.16 |(L1) Ensure 'Debug programs' is set to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|2.2.18 |(L1) Ensure 'Deny log on as a batch job' to include 'Guests' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|2.2.19 |(L1) Ensure 'Deny log on as a service' to include 'Guests' |(Scored)
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|2.2.20 |(L1) Ensure 'Deny log on locally' to include 'Guests' |(Scored)
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|2.2.25 |(L1) Configure 'Impersonate a client after authentication' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|2.2.28 |(L1) Ensure 'Lock pages in memory' is set to 'No One' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|2.2.30 |(L1) Configure 'Manage auditing and security log' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|2.2.31 |(L1) Ensure 'Modify an object label' is set to 'No One' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|2.2.34 |(L1) Ensure 'Profile single process' is set to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|2.2.38 |(L1) Ensure 'Shut down the system' is set to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|2.3 |Security Options 
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|2.3.1.5 |(L1) Configure 'Accounts: Rename administrator account' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|2.3.1.6 |(L1) Configure 'Accounts: Rename guest account' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|2.3.8.3 |(L1) Ensure 'Microsoft network client: Send unencrypted password to thirdparty SMB servers' is set to 'Disabled' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|2.3.10.8 |(L1) Ensure 'Network access: Remotely accessible registry paths and subpaths' |(Scored) 
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|3 |Event Log 
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|4 |Restricted Groups 
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|5 |System Services 
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|6 |Registry
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|7 |File System 
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|8 |Wired Network (IEEE 802.3) Policies 
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|9 |Windows Firewall With Advanced Security
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|9.1 |Domain Profile
+CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.0|9.2 |Private Profile 
 CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.1|1 |Account Policies 
 CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.1|1.1 |Password Policy 
 CIS|Microsoft_Windows_Server_2012_non-R2|Benchmark|v2.0.1|1.1.3 |(L1) Ensure 'Minimum password age' is set to '1 or more day(s)' |(Scored) 
@@ -4729,6 +5540,39 @@ CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.0.0|8 |Wired Net
 CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.0.0|9 |Windows Firewall With Advanced Security
 CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.0.0|9.1 |Domain Profile
 CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.0.0|9.2 |Private Profile 
+CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.1.0|1 |Account Policies 
+CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.1.0|1.1 |Password Policy 
+CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.1.0|1.2 |Account Lockout Policy 
+CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.1.0|2 |Local Policies 
+CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.1.0|2.1 |Audit Policy
+CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.1.0|2.2 |User Rights Assignment 
+CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.1.0|2.2.7 |(L1) Ensure 'Allow log on locally' is set to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.1.0|2.2.13 |(L1) Ensure 'Create a pagefile' is set to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.1.0|2.2.14 |(L1) Ensure 'Create a token object' is set to 'No One' |(Scored)
+CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.1.0|2.2.19 |(L1) Ensure 'Debug programs' is set to 'Administrators' |(Scored) 
+CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.1.0|2.2.22 |(L1) Ensure 'Deny log on as a batch job' to include 'Guests' |(Scored) 
+CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.1.0|2.2.23 |(L1) Ensure 'Deny log on as a service' to include 'Guests' |(Scored) 
+CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.1.0|2.2.24 |(L1) Ensure 'Deny log on locally' to include 'Guests' |(Scored) 
+CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.1.0|2.2.35 |(L1) Ensure 'Lock pages in memory' is set to 'No One' |(Scored) 
+CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.1.0|2.2.39 |(L1) Ensure 'Modify an object label' is set to 'No One' |(Scored) 
+CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.1.0|2.3 |Security Options 
+CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.1.0|2.3.1 |Accounts 
+CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.1.0|2.3.1.5 |(L1) Configure 'Accounts: Rename administrator account' |(Scored) 
+CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.1.0|2.3.1.6 |(L1) Configure 'Accounts: Rename guest account' |(Scored) 
+CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.1.0|2.3.2 |Audit
+CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.1.0|2.3.3 |DCOM 
+CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.1.0|2.3.4 |Devices 
+CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.1.0|2.3.5 |Domain controller 
+CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.1.0|2.3.6 |Domain member
+CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.1.0|2.3.7 |Interactive logon 
+CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.1.0|2.3.8 |Microsoft network client 
+CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.1.0|2.3.9 |Microsoft network server 
+CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.1.0|2.3.10 |Network access 
+CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.1.0|2.3.11 |Network security 
+CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.1.0|2.3.12 |Recovery console
+CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.1.0|2.3.13 |Shutdown 
+CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.1.0|2.3.14 |System cryptography 
+CIS|Microsoft_Windows_Server_2016_RTM_Release_1607|Benchmark|v1.1.0|2.3.15 |System objects 
 CIS|Microsoft_Windows_XP|Benchmark|v3.1.0|1 |Computer Configuration 
 CIS|Microsoft_Windows_XP|Benchmark|v3.1.0|1.1 |Windows Settings 
 CIS|Microsoft_Windows_XP|Benchmark|v3.1.0|1.1.1 |Security Settings 
@@ -5213,6 +6057,107 @@ CIS|Oracle_Database_12c|Benchmark|v2.0.0|5.2.25 |Enable 'ALTER TRIGGER’ Action
 CIS|Oracle_Database_12c|Benchmark|v2.0.0|5.2.26 |Enable 'DROP TRIGGER’ Action Audit |(Scored) 
 CIS|Oracle_Database_12c|Benchmark|v2.0.0|5.2.27 |Enable 'LOGON’ AND ‘LOGOFF’ Actions Audit |(Scored) 
 CIS|Oracle_Database_12c|Benchmark|v2.0.0|6 |Appendix: Establishing an Audit/Scan User 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|1 |Oracle Database Installation and Patching Requirements 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|1.2 |Ensure All Default Passwords Are Changed |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|1.3 |Ensure All Sample Data And Users Have Been Removed |(Scored)
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|2 |Oracle Parameter Settings 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|2.1 |Listener Settings 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|2.1.1 |Ensure 'SECURE_CONTROL_' Is Set In 'listener.ora' |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|2.1.2 |Ensure 'extproc' Is Not Present in 'listener.ora' |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|2.1.3 |Ensure 'ADMIN_RESTRICTIONS_' Is Set to 'ON' |(Scored)
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|2.1.4 |Ensure 'SECURE_REGISTER_' Is Set to 'TCPS' or 'IPC' |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|2.2 |Database Settings 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|2.2.1 |Ensure 'AUDIT_SYS_OPERATIONS' Is Set to 'TRUE' |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|2.2.3 |Ensure 'GLOBAL_NAMES' Is Set to 'TRUE' |(Scored)
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|2.2.4 |Ensure 'O7_DICTIONARY_ACCESSIBILITY' Is Set to 'FALSE' |(Scored)
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|2.2.5 |Ensure 'OS_ROLES' Is Set to 'FALSE' |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|2.2.6 |Ensure 'REMOTE_LISTENER' Is Empty |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|2.2.7 |Ensure 'REMOTE_LOGIN_PASSWORDFILE' Is Set to 'NONE' |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|2.2.8 |Ensure 'REMOTE_OS_AUTHENT' Is Set to 'FALSE' |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|2.2.9 |Ensure 'REMOTE_OS_ROLES' Is Set to 'FALSE' |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|2.2.10 |Ensure 'UTL_FILE_DIR' Is Empty |(Scored)
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|2.2.11 |Ensure 'SEC_CASE_SENSITIVE_LOGON' Is Set to 'TRUE' |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|2.2.12 |Ensure 'SEC_MAX_FAILED_LOGIN_ATTEMPTS' Is '3' or Less |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|2.2.16 |Ensure 'SQL92_SECURITY' Is Set to 'TRUE' |(Scored)
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|2.2.17 |Ensure '_trace_files_public' Is Set to 'FALSE' |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|2.2.18 |Ensure 'RESOURCE_LIMIT' Is Set to 'TRUE' |(Scored)
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|3 |Oracle Connection and Login Restrictions 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|3.1 |Ensure 'FAILED_LOGIN_ATTEMPTS' Is Less than or Equal to '5' |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|3.2 |Ensure 'PASSWORD_LOCK_TIME' Is Greater than or Equal to '1' |(Scored)
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|3.3 |Ensure 'PASSWORD_LIFE_TIME' Is Less than or Equal to '90' |(Scored)
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|3.4 |Ensure 'PASSWORD_REUSE_MAX' Is Greater than or Equal to '20' |(Scored)
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|3.6 |Ensure 'PASSWORD_GRACE_TIME' Is Less than or Equal to '5' |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|3.8 |Ensure 'PASSWORD_VERIFY_FUNCTION' Is Set for All Profiles |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|3.9 |Ensure 'SESSIONS_PER_USER' Is Less than or Equal to '10' |(Scored)
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|3.10 |Ensure No Users Are Assigned the 'DEFAULT' Profile |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|4 |Oracle User Access and Authorization Restrictions
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|4.1 |Default Public Privileges for Packages and Object Types 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|4.1.2 |Ensure 'EXECUTE' Is Revoked from 'PUBLIC' on 'DBMS_CRYPTO' |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|4.1.3 |Ensure 'EXECUTE' Is Revoked from 'PUBLIC' on 'DBMS_JAVA' |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|4.1.5 |Ensure 'EXECUTE' Is Revoked from 'PUBLIC' on 'DBMS_JOB' |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|4.1.6 |Ensure 'EXECUTE' Is Revoked from 'PUBLIC' on 'DBMS_LDAP' |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|4.1.7 |Ensure 'EXECUTE' Is Revoked from 'PUBLIC' on 'DBMS_LOB' |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|4.1.11 |Ensure 'EXECUTE' Is Revoked from 'PUBLIC' on 'DBMS_SQL' |(Scored)
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|4.1.14 |Ensure 'EXECUTE' Is Revoked from 'PUBLIC' on 'UTL_FILE' |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|4.1.16 |Ensure 'EXECUTE' Is Revoked from 'PUBLIC' on 'UTL_TCP' |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|4.1.17 |Ensure 'EXECUTE' Is Revoked from 'PUBLIC' on 'UTL_MAIL' |(Scored)
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|4.1.18 |Ensure 'EXECUTE' Is Revoked from 'PUBLIC' on 'UTL_SMTP' |(Scored)
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|4.1.19 |Ensure 'EXECUTE' Is Revoked from 'PUBLIC' on 'UTL_DBWS' |(Scored)
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|4.1.21 |Ensure 'EXECUTE' Is Revoked from 'PUBLIC' on 'UTL_HTTP' |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|4.2 |Revoke Non-Default Privileges for Packages and Object Types 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|4.2.5 |Ensure 'EXECUTE' Is Revoked from 'PUBLIC' on 'INITJVMAUX' |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|4.2.10 |Ensure 'EXECUTE' Is Revoked from 'PUBLIC' on 'LTADM' |(Scored)
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|4.2.13 |Ensure 'EXECUTE' Is Revoked from 'PUBLIC' on 'DBMS_IJOB' |(Scored)
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|4.3 |Revoke Excessive System Privileges
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|4.4 |Revoke Role Privileges 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|4.4.4 |Ensure 'DBA' Is Revoked from Unauthorized 'GRANTEE' |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|4.5 |Revoke Excessive Table and View Privileges 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|4.5.7 |Ensure 'SYS.USER$MIG' Has Been Dropped |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|4.6 |Ensure '%ANY%' Is Revoked from Unauthorized 'GRANTEE' |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|4.8 |Ensure Proxy Users Have Only 'CONNECT' Privilege |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|4.9 |Ensure 'EXECUTE ANY PROCEDURE' Is Revoked from 'OUTLN' |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5 |Audit/Logging Policies and Procedures 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.1 |Traditional Auditing 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.1.1 |Ensure the 'USER' Audit Option Is Enabled |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.1.2 |Ensure the 'ROLE' Audit Option Is Enabled |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.1.3 |Ensure the 'SYSTEM GRANT' Audit Option Is Enabled |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.1.4 |Ensure the 'PROFILE' Audit Option Is Enabled |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.1.5 |Ensure the 'DATABASE LINK' Audit Option Is Enabled |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.1.6 |Ensure the 'PUBLIC DATABASE LINK' Audit Option Is Enabled |(Scored)
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.1.7 |Ensure the 'PUBLIC SYNONYM' Audit Option Is Enabled |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.1.8 |Ensure the 'SYNONYM' Audit Option Is Enabled |(Scored)
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.1.9 |Ensure the 'DIRECTORY' Audit Option Is Enabled |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.1.12 |Ensure the 'GRANT ANY PRIVILEGE' Audit Option Is Enabled |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.1.13 |Ensure the 'DROP ANY PROCEDURE' Audit Option Is Enabled |(Scored)
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.1.14 |Ensure the 'ALL' Audit Option on 'SYS.AUD$' Is Enabled |(Scored)
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.1.15 |Ensure the 'PROCEDURE' Audit Option Is Enabled |(Scored)
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.1.16 |Ensure the 'ALTER SYSTEM' Audit Option Is Enabled |(Scored)
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.1.17 |Ensure the 'TRIGGER' Audit Option Is Enabled |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.1.18 |Ensure the 'CREATE SESSION' Audit Option Is Enabled |(Scored)
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.2 |Unified Auditing
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.2.1 |Ensure the 'CREATE USER' Action Audit Is Enabled |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.2.2 |Ensure the 'ALTER USER' Action Audit Is Enabled |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.2.3 |Ensue the 'DROP USER' Audit Option Is Enabled |(Scored)
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.2.4 |Ensure the 'CREATE ROLE’ Action Audit Is Enabled |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.2.5 |Ensure the 'ALTER ROLE’ Action Audit Is Enabled |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.2.6 |Ensure the 'DROP ROLE’ Action Audit Is Enabled |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.2.7 |Ensure the 'GRANT' Action Audit Is Enabled |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.2.8 |Ensure the 'REVOKE' Action Audit Is Enabled |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.2.9 |Ensure the 'CREATE PROFILE’ Action Audit Is Enabled |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.2.10 |Ensure the 'ALTER PROFILE’ Action Audit Is Enabled |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.2.11 |Ensure the 'DROP PROFILE’ Action Audit Is Enabled |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.2.13 |Ensure the 'ALTER DATABASE LINK’ Action Audit Is Enabled |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.2.14 |Ensure the 'DROP DATABASE LINK’ Action Audit Is Enabled |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.2.15 |Ensure the 'CREATE SYNONYM’ Action Audit Is Enabled |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.2.16 |Ensure the 'ALTER SYNONYM’ Action Audit Is Enabled |(Scored)
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.2.17 |Ensure the 'DROP SYNONYM’ Action Audit Is Enabled |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.2.19 |Ensure the 'UNIFIED_AUDIT_TRAIL’ Access Audit Is Enabled |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.2.23 |Ensure the 'ALTER SYSTEM’ Privilege Audit Is Enabled |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.2.24 |Ensure the 'CREATE TRIGGER’ Action Audit Is Enabled |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.2.25 |Ensure the 'ALTER TRIGGER’ Action Audit IS Enabled |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.2.26 |Ensure the 'DROP TRIGGER’ Action Audit Is Enabled |(Scored)
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|5.2.27 |Ensure the 'LOGON’ AND ‘LOGOFF’ Actions Audit Is Enabled |(Scored) 
+CIS|Oracle_Database_12c|Benchmark|v2.1.0|6 |Appendix: Establishing an Audit/Scan User 
 CIS|Oracle_Database_Server_11g_R2_on_Oracle_Linux_5|Benchmark|v1.0.0-A2|1 |Rejected - OS-specific settings for the Oracle installation 
 CIS|Oracle_Database_Server_11g_R2_on_Oracle_Linux_5|Benchmark|v1.0.0-A2|1.1 |Set kernel.shmall value |(Scored)
 CIS|Oracle_Database_Server_11g_R2_on_Oracle_Linux_5|Benchmark|v1.0.0-A2|1.2 |Set fs.file-max value |(Scored) 
@@ -6305,6 +7250,108 @@ CIS|Palo_Alto_Firewall_7|Benchmark|v1.0.0|6.12 |Ensure all HTTP Header Logging o
 CIS|Palo_Alto_Firewall_7|Benchmark|v1.0.0|7 |Security Policies 
 CIS|Palo_Alto_Firewall_7|Benchmark|v1.0.0|8 |Decryption 
 CIS|Palo_Alto_Firewall_7|Benchmark|v1.0.0|8.3 |Ensure that the Certificate used for Decryption is Trusted |(Not Scored) 
+CIS|Palo_Alto_Firewall_8|Benchmark|v1.0.0|1 |Device Setup 
+CIS|Palo_Alto_Firewall_8|Benchmark|v1.0.0|1.1 |General Settings 
+CIS|Palo_Alto_Firewall_8|Benchmark|v1.0.0|1.1.1 |Ensure 'Login Banner' is set |(Scored) 
+CIS|Palo_Alto_Firewall_8|Benchmark|v1.0.0|1.1.2 |Ensure 'Enable Log on High DP Load' is enabled |(Scored)
+CIS|Palo_Alto_Firewall_8|Benchmark|v1.0.0|1.2 |Management Interface Settings 
+CIS|Palo_Alto_Firewall_8|Benchmark|v1.0.0|1.3 |Minimum Password Requirements
+CIS|Palo_Alto_Firewall_8|Benchmark|v1.0.0|1.3.1 |Ensure 'Minimum Password Complexity' is enabled |(Scored) 
+CIS|Palo_Alto_Firewall_8|Benchmark|v1.0.0|1.3.2 |Ensure 'Minimum Length' is greater than or equal to 12 |(Scored) 
+CIS|Palo_Alto_Firewall_8|Benchmark|v1.0.0|1.3.5 |Ensure 'Minimum Numeric Letters' is greater than or equal to 1 |(Scored) 
+CIS|Palo_Alto_Firewall_8|Benchmark|v1.0.0|1.3.10 |Ensure 'Password Profiles' do not exist |(Scored) 
+CIS|Palo_Alto_Firewall_8|Benchmark|v1.0.0|1.4 |Authentication Settings (for Device Mgmt) 
+CIS|Palo_Alto_Firewall_8|Benchmark|v1.0.0|1.5 |SNMP Polling Settings 
+CIS|Palo_Alto_Firewall_8|Benchmark|v1.0.0|1.5.1 |Ensure 'V3' is selected for SNMP polling |(Scored) 
+CIS|Palo_Alto_Firewall_8|Benchmark|v1.0.0|1.6 |Device Services Settings 
+CIS|Palo_Alto_Firewall_8|Benchmark|v1.0.0|1.6.1 |Ensure 'Verify Update Server Identity' is enabled |(Scored) 
+CIS|Palo_Alto_Firewall_8|Benchmark|v1.0.0|1.6.2 |Ensure redundant NTP servers are configured appropriately |(Scored) 
+CIS|Palo_Alto_Firewall_8|Benchmark|v1.0.0|2 |User Identification
+CIS|Palo_Alto_Firewall_8|Benchmark|v1.0.0|2.1 |Ensure that IP addresses are mapped to usernames |(Scored) 
+CIS|Palo_Alto_Firewall_8|Benchmark|v1.0.0|2.2 |Ensure that WMI probing is disabled |(Scored) 
+CIS|Palo_Alto_Firewall_8|Benchmark|v1.0.0|2.3 |Ensure that User-ID is only enabled for internal trusted interfaces |(Scored) 
+CIS|Palo_Alto_Firewall_8|Benchmark|v1.0.0|3 |High Availability 
+CIS|Palo_Alto_Firewall_8|Benchmark|v1.0.0|3.1 |Ensure a fully-synchronized High Availability peer is configured |(Scored) 
+CIS|Palo_Alto_Firewall_8|Benchmark|v1.0.0|4 |Dynamic Updates 
+CIS|Palo_Alto_Firewall_8|Benchmark|v1.0.0|5 |Wildfire 
+CIS|Palo_Alto_Firewall_8|Benchmark|v1.0.0|5.1 |Ensure that WildFire file size upload limits are maximized |(Scored) 
+CIS|Palo_Alto_Firewall_8|Benchmark|v1.0.0|5.4 |Ensure forwarding of decrypted content to WildFire is enabled |(Scored)
+CIS|Palo_Alto_Firewall_8|Benchmark|v1.0.0|5.5 |Ensure all WildFire session information settings are enabled |(Scored) 
+CIS|Palo_Alto_Firewall_8|Benchmark|v1.0.0|6 |Security Profiles 
+CIS|Palo_Alto_Firewall_8|Benchmark|v1.0.0|6.9 |Ensure that PAN-DB URL Filtering is used |(Scored) 
+CIS|Palo_Alto_Firewall_8|Benchmark|v1.0.0|6.11 |Ensure that access to every URL is logged |(Scored) 
+CIS|Palo_Alto_Firewall_8|Benchmark|v1.0.0|6.12 |Ensure all HTTP Header Logging options are enabled |(Scored) 
+CIS|Palo_Alto_Firewall_8|Benchmark|v1.0.0|7 |Security Policies 
+CIS|Palo_Alto_Firewall_8|Benchmark|v1.0.0|8 |Decryption 
+CIS|Palo_Alto_Firewall_8|Benchmark|v1.0.0|8.3 |Ensure that the Certificate used for Decryption is Trusted |(Not Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|1 |Installation and Patches 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|1.1 |Ensure packages are obtained from authorized repositories |(Not Scored)
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|1.2 |Ensure Installation of Community Packages |(Not Scored)
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|1.3 |Ensure Installation of Binary Packages |(Not Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|1.4 |Ensure Service Runlevel Is Registered And Set Correctly |(Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|1.5 |Ensure Data Cluster Initialized Successfully |(Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|2 |Directory and File Permissions
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|2.1 |Ensure the file permissions mask is correct |(Scored)
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|2.2 |Ensure the PostgreSQL pg_wheel group membership is correct |(Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|3 |Logging Monitoring And Auditing (Centos 6) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|3.1 |PostgreSQL Logging 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|3.1.1 |Logging Rationale
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|3.1.2 |Ensure the log destinations are set correctly |(Scored)
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|3.1.3 |Ensure the logging collector is enabled |(Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|3.1.4 |Ensure the log file destination directory is set correctly |(Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|3.1.5 |Ensure the filename pattern for log files is set correctly |(Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|3.1.6 |Ensure the log file permissions are set correctly |(Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|3.1.7 |Ensure 'log_truncate_on_rotation' is enabled |(Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|3.1.8 |Ensure the maximum log file lifetime is set correctly |(Scored)
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|3.1.9 |Ensure the maximum log file size is set correctly |(Scored)
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|3.1.10 |Ensure the correct syslog facility is selected |(Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|3.1.12 |Ensure the correct messages are sent to the database client |(Not Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|3.1.13 |Ensure the correct messages are written to the server log |(Not Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|3.1.15 |Ensure 'log_min_duration_statement' is disabled |(Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|3.1.16 |Ensure 'debug_print_parse' is disabled |(Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|3.1.17 |Ensure 'debug_print_rewritten' is disabled |(Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|3.1.18 |Ensure 'debug_print_plan' is disabled |(Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|3.1.19 |Ensure 'debug_pretty_print' is enabled |(Scored)
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|3.1.20 |Ensure 'log_checkpoints' is enabled |(Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|3.1.21 |Ensure 'log_connections' is enabled |(Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|3.1.22 |Ensure 'log_disconnections' is enabled |(Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|3.1.23 |Ensure 'log_duration' is enabled |(Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|3.1.24 |Ensure 'log_error_verbosity' is set correctly |(Not Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|3.1.25 |Ensure 'log_hostname' is set correctly |(Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|3.1.26 |Ensure 'log_line_prefix' is set correctly |(Not Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|3.1.27 |Ensure 'log_lock_waits' is enabled |(Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|3.1.28 |Ensure 'log_statement' is set correctly |(Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|3.1.29 |Ensure all temporary files are logged |(Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|3.1.30 |Ensure 'log_timezone' is set correctly |(Scored)
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|3.1.31 |Ensure 'log_parser_stats' is disabled |(Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|3.1.32 |Ensure 'log_planner_stats' is disabled |(Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|3.1.33 |Ensure 'log_executor_stats' is disabled |(Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|3.1.34 |Ensure 'log_statement_stats' is disabled |(Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|3.2 |Ensure the PostgreSQL Audit Extension (pgAudit) is enabled |(Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|4 |User Access and Authorization 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|4.1 |Ensure sudo is configured correctly |(Scored)
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|4.2 |Ensure valid public keys are installed |(Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|4.3 |Ensure excessive administrative privileges are revoked |(Scored)
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|4.4 |Ensure excessive function privileges are revoked |(Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|4.5 |Ensure excessive DML privileges are revoked |(Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|4.6 |Ensure Row Level Security (RLS) is configured correctly |(Not Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|5 |Connection and Login 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|5.2 |Ensure login via "host" TCP/IP Socket is configured correctly |(Scored)
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|6 |PostgreSQL Settings
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|6.1 |Ensure 'Attack Vectors' Runtime Parameters are Configured |(Not Scored)
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|6.2 |Ensure 'backend' runtime parameters are configured correctly |(Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|6.3 |Ensure 'Postmaster' Runtime Parameters are Configured |(Not Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|6.4 |Ensure 'SIGHUP' Runtime Parameters are Configured |(Not Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|6.5 |Ensure 'Superuser' Runtime Parameters are Configured |(Not Scored)
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|6.6 |Ensure 'User' Runtime Parameters are Configured |(Not Scored)
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|6.7 |Ensure SSL is enabled and configured correctly |(Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|6.8 |Ensure FIPS 140-2 OpenSSL Cryptography Is Used |(Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|7 |Replication 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|7.1 |Ensure SSL Certificates are Configured For Replication |(Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|7.2 |Ensure base backups are configured and functional |(Not Scored)
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|7.3 |Ensure WAL archiving is configured and functional |(Scored) 
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|8 |Special Configuration Considerations
+CIS|PostgreSQL_9.5|Benchmark|v1.0.0|8.4 |Ensure miscellaneous configuration settings are correct |(Not Scored)
 CIS|Red_Hat_Enterprise_Linux_5|Benchmark|v2.2.0|1 |Install Updates, Patches and Additional Security Software 
 CIS|Red_Hat_Enterprise_Linux_5|Benchmark|v2.2.0|1.1 |Filesystem Configuration 
 CIS|Red_Hat_Enterprise_Linux_5|Benchmark|v2.2.0|1.2 |Configure Software Updates 
@@ -7172,6 +8219,215 @@ CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.0.0|6.1.2 |Ensure permissions on /etc/
 CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.0.0|6.1.3 |Ensure permissions on /etc/shadow are configured |(Scored) 
 CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.0.0|6.1.4 |Ensure permissions on /etc/group are configured |(Scored) 
 CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.0.0|6.1.5 |Ensure permissions on /etc/passwd- are configured |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1 |Initial Setup 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.1 |Filesystem Configuration 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.1.1.1 |Ensure mounting of cramfs filesystems is disabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.1.1.2 |Ensure mounting of freevxfs filesystems is disabled |(Scored)
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.1.1.3 |Ensure mounting of jffs2 filesystems is disabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.1.1.4 |Ensure mounting of hfs filesystems is disabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.1.1.5 |Ensure mounting of hfsplus filesystems is disabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.1.1.6 |Ensure mounting of squashfs filesystems is disabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.1.1.7 |Ensure mounting of udf filesystems is disabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.1.1.8 |Ensure mounting of FAT filesystems is disabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.1.2 |Ensure separate partition exists for /tmp |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.1.3 |Ensure nodev option set on /tmp partition |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.1.4 |Ensure nosuid option set on /tmp partition |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.1.5 |Ensure noexec option set on /tmp partition |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.1.6 |Ensure separate partition exists for /var |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.1.7 |Ensure separate partition exists for /var/tmp |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.1.8 |Ensure nodev option set on /var/tmp partition |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.1.9 |Ensure nosuid option set on /var/tmp partition |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.1.10 |Ensure noexec option set on /var/tmp partition |(Scored)
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.1.11 |Ensure separate partition exists for /var/log |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.1.12 |Ensure separate partition exists for /var/log/audit |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.1.13 |Ensure separate partition exists for /home |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.1.14 |Ensure nodev option set on /home partition |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.1.15 |Ensure nodev option set on /dev/shm partition |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.1.16 |Ensure nosuid option set on /dev/shm partition |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.1.17 |Ensure noexec option set on /dev/shm partition |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.1.18 |Ensure nodev option set on removable media partitions |(Not Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.1.19 |Ensure nosuid option set on removable media partitions |(Not Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.1.20 |Ensure noexec option set on removable media partitions |(Not Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.1.21 |Ensure sticky bit is set on all world-writable directories |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.1.22 |Disable Automounting |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.2 |Configure Software Updates 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.2.1 |Ensure package manager repositories are configured |(Not Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.2.2 |Ensure GPG keys are configured |(Not Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.3 |Filesystem Integrity Checking 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.3.1 |Ensure AIDE is installed |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.3.2 |Ensure filesystem integrity is regularly checked |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.4 |Secure Boot Settings 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.4.1 |Ensure permissions on bootloader config are configured |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.4.2 |Ensure bootloader password is set |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.4.3 |Ensure authentication required for single user mode |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.5 |Additional Process Hardening 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.5.1 |Ensure core dumps are restricted |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.5.2 |Ensure XD/NX support is enabled |(Not Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.5.3 |Ensure address space layout randomization (ASLR) is enabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.5.4 |Ensure prelink is disabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.6 |Mandatory Access Control 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.6.1.1 |Ensure SELinux is not disabled in bootloader configuration |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.6.1.2 |Ensure the SELinux state is enforcing |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.6.1.3 |Ensure SELinux policy is configured |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.6.1.4 |Ensure SETroubleshoot is not installed |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.6.1.5 |Ensure the MCS Translation Service (mcstrans) is not installed |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.6.1.6 |Ensure no unconfined daemons exist |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.6.2.1 |Ensure AppArmor is not disabled in bootloader configuration |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.6.2.2 |Ensure all AppArmor Profiles are enforcing |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.6.3 |Ensure SELinux or AppArmor are installed |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.7 |Warning Banners
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.7.1.1 |Ensure message of the day is configured properly |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.7.1.2 |Ensure local login warning banner is configured properly |(Not Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.7.1.4 |Ensure permissions on /etc/motd are configured |(Not Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.7.1.5 |Ensure permissions on /etc/issue are configured |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.7.1.6 |Ensure permissions on /etc/issue.net are configured |(Not Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|1.7.2 |Ensure GDM login banner is configured |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2 |Services 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.1 |inetd Services 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.1.1 |Ensure chargen services are not enabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.1.2 |Ensure daytime services are not enabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.1.3 |Ensure discard services are not enabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.1.4 |Ensure echo services are not enabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.1.5 |Ensure time services are not enabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.1.6 |Ensure rsh server is not enabled |(Scored)
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.1.7 |Ensure talk server is not enabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.1.8 |Ensure telnet server is not enabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.1.9 |Ensure tftp server is not enabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.1.10 |Ensure rsync service is not enabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.1.11 |Ensure xinetd is not enabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.2 |Special Purpose Services 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.2.1.1 |Ensure time synchronization is in use |(Not Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.2.1.2 |Ensure ntp is configured |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.2.1.3 |Ensure chrony is configured |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.2.2 |Ensure X Window System is not installed |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.2.3 |Ensure Avahi Server is not enabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.2.4 |Ensure CUPS is not enabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.2.5 |Ensure DHCP Server is not enabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.2.6 |Ensure LDAP server is not enabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.2.7 |Ensure NFS and RPC are not enabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.2.8 |Ensure DNS Server is not enabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.2.9 |Ensure FTP Server is not enabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.2.10 |Ensure HTTP server is not enabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.2.11 |Ensure IMAP and POP3 server is not enabled |(Scored)
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.2.12 |Ensure Samba is not enabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.2.13 |Ensure HTTP Proxy Server is not enabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.2.14 |Ensure SNMP Server is not enabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.2.15 |Ensure mail transfer agent is configured for local-only mode |(Scored)
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.2.16 |Ensure NIS Server is not enabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.2.17 |Ensure tftp server is not enabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.2.18 |Ensure rsync service is not enabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.3 |Service Clients 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.3.1 |Ensure NIS Client is not installed |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.3.2 |Ensure rsh client is not installed |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.3.3 |Ensure talk client is not installed |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.3.4 |Ensure telnet client is not installed |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|2.3.5 |Ensure LDAP client is not installed |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|3 |Network Configuration
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|3.1 |Network Parameters (Host Only) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|3.1.1 |Ensure IP forwarding is disabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|3.1.2 |Ensure packet redirect sending is disabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|3.2 |Network Parameters (Host and Router) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|3.2.1 |Ensure source routed packets are not accepted |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|3.2.2 |Ensure ICMP redirects are not accepted |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|3.2.3 |Ensure secure ICMP redirects are not accepted |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|3.2.4 |Ensure suspicious packets are logged |(Scored)
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|3.2.5 |Ensure broadcast ICMP requests are ignored |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|3.2.6 |Ensure bogus ICMP responses are ignored |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|3.2.7 |Ensure Reverse Path Filtering is enabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|3.2.8 |Ensure TCP SYN Cookies is enabled |(Scored)
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|3.3 |IPv6 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|3.3.1 |Ensure IPv6 router advertisements are not accepted |(Not Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|3.3.2 |Ensure IPv6 redirects are not accepted |(Not Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|3.3.3 |Ensure IPv6 is disabled |(Not Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|3.4 |TCP Wrappers
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|3.4.1 |Ensure TCP Wrappers is installed |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|3.4.2 |Ensure /etc/hosts.allow is configured |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|3.4.3 |Ensure /etc/hosts.deny is configured |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|3.4.4 |Ensure permissions on /etc/hosts.allow are configured |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|3.4.5 |Ensure permissions on /etc/hosts.deny are configured |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|3.5 |Uncommon Network Protocols 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|3.5.1 |Ensure DCCP is disabled |(Not Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|3.5.2 |Ensure SCTP is disabled |(Not Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|3.5.3 |Ensure RDS is disabled |(Not Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|3.5.4 |Ensure TIPC is disabled |(Not Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|3.6 |Firewall Configuration 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|3.6.1 |Ensure iptables is installed |(Scored)
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|3.6.2 |Ensure default deny firewall policy |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|3.6.3 |Ensure loopback traffic is configured |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|3.6.5 |Ensure firewall rules exist for all open ports |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|3.7 |Ensure wireless interfaces are disabled |(Not Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|4 |Logging and Auditing 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|4.1 |Configure System Accounting (auditd) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|4.1.1.1 |Ensure audit log storage size is configured |(Not Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|4.1.1.2 |Ensure system is disabled when audit logs are full |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|4.1.1.3 |Ensure audit logs are not automatically deleted |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|4.1.2 |Ensure auditd service is enabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|4.1.8 |Ensure login and logout events are collected |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|4.1.9 |Ensure session initiation information is collected |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|4.1.12 |Ensure use of privileged commands is collected |(Scored)
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|4.1.13 |Ensure successful file system mounts are collected |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|4.1.14 |Ensure file deletion events by users are collected |(Scored)
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|4.1.16 |Ensure system administrator actions (sudolog) are collected |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|4.1.17 |Ensure kernel module loading and unloading is collected |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|4.1.18 |Ensure the audit configuration is immutable |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|4.2 |Configure Logging 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|4.2.1.1 |Ensure rsyslog Service is enabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|4.2.1.2 |Ensure logging is configured |(Not Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|4.2.1.3 |Ensure rsyslog default file permissions configured |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|4.2.1.4 |Ensure rsyslog is configured to send logs to a remote log host |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|4.2.2.1 |Ensure syslog-ng service is enabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|4.2.2.2 |Ensure logging is configured |(Not Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|4.2.2.3 |Ensure syslog-ng default file permissions configured |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|4.2.3 |Ensure rsyslog or syslog-ng is installed |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|4.2.4 |Ensure permissions on all logfiles are configured |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|4.3 |Ensure logrotate is configured |(Not Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5 |Access, Authentication and Authorization 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.1 |Configure cron 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.1.1 |Ensure cron daemon is enabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.1.2 |Ensure permissions on /etc/crontab are configured |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.1.3 |Ensure permissions on /etc/cron.hourly are configured |(Scored)
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.1.4 |Ensure permissions on /etc/cron.daily are configured |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.1.5 |Ensure permissions on /etc/cron.weekly are configured |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.1.6 |Ensure permissions on /etc/cron.monthly are configured |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.1.7 |Ensure permissions on /etc/cron.d are configured |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.1.8 |Ensure at/cron is restricted to authorized users |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.2 |SSH Server Configuration 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.2.1 |Ensure permissions on /etc/ssh/sshd_config are configured |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.2.2 |Ensure SSH Protocol is set to 2 |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.2.3 |Ensure SSH LogLevel is set to INFO |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.2.4 |Ensure SSH X11 forwarding is disabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.2.5 |Ensure SSH MaxAuthTries is set to 4 or less |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.2.6 |Ensure SSH IgnoreRhosts is enabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.2.7 |Ensure SSH HostbasedAuthentication is disabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.2.8 |Ensure SSH root login is disabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.2.9 |Ensure SSH PermitEmptyPasswords is disabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.2.10 |Ensure SSH PermitUserEnvironment is disabled |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.2.11 |Ensure only approved MAC algorithms are used |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.2.12 |Ensure SSH Idle Timeout Interval is configured |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.2.13 |Ensure SSH LoginGraceTime is set to one minute or less |(Scored)
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.2.14 |Ensure SSH access is limited |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.2.15 |Ensure SSH warning banner is configured |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.3 |Configure PAM
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.3.1 |Ensure password creation requirements are configured |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.3.2 |Ensure lockout for failed password attempts is configured |(Scored)
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.3.3 |Ensure password reuse is limited |(Scored)
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.3.4 |Ensure password hashing algorithm is SHA-512 |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.4 |User Accounts and Environment 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.4.1.1 |Ensure password expiration is 365 days or less |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.4.1.3 |Ensure password expiration warning days is 7 or more |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.4.1.4 |Ensure inactive password lock is 30 days or less |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.4.1.5 |Ensure all users last password change date is in the past |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.4.2 |Ensure system accounts are non-login |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.4.3 |Ensure default group for the root account is GID 0 |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.4.4 |Ensure default user umask is 027 or more restrictive |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.4.5 |Ensure default user shell timeout is 900 seconds or less |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.5 |Ensure root login is restricted to system console |(Not Scored)
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|5.6 |Ensure access to the su command is restricted |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|6 |System Maintenance
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|6.1 |System File Permissions 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|6.1.1 |Audit system file permissions |(Not Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|6.1.2 |Ensure permissions on /etc/passwd are configured |(Scored) 
+CIS|SUSE_Linux_Enterprise_12|Benchmark|v2.1.0|6.1.3 |Ensure permissions on /etc/shadow are configured |(Scored) 
 CIS|Ubuntu_12.04_LTS_Server|Benchmark|v1.1.0|1 |Patching and Software Updates ....................................................................................................................7
 CIS|Ubuntu_12.04_LTS_Server|Benchmark|v1.1.0|2 |Filesystem Configuration .................................................................................................................................8
 CIS|Ubuntu_12.04_LTS_Server|Benchmark|v1.1.0|3 |Secure Boot Settings 
@@ -7616,6 +8872,216 @@ CIS|Ubuntu_Linux_16.04_LTS|Benchmark|v1.1.0|6.1.6 |Ensure permissions on /etc/pa
 CIS|Ubuntu_Linux_16.04_LTS|Benchmark|v1.1.0|6.1.7 |Ensure permissions on /etc/shadow- are configured |(Scored) 
 CIS|Ubuntu_Linux_16.04_LTS|Benchmark|v1.1.0|6.1.8 |Ensure permissions on /etc/group- are configured |(Scored) 
 CIS|Ubuntu_Linux_16.04_LTS|Benchmark|v1.1.0|6.1.9 |Ensure permissions on /etc/gshadow- are configured |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1 |Initial Setup 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.1 |Filesystem Configuration 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.1.1.1 |Ensure mounting of cramfs filesystems is disabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.1.1.2 |Ensure mounting of freevxfs filesystems is disabled |(Scored)
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.1.1.3 |Ensure mounting of jffs2 filesystems is disabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.1.1.4 |Ensure mounting of hfs filesystems is disabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.1.1.5 |Ensure mounting of hfsplus filesystems is disabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.1.1.6 |Ensure mounting of udf filesystems is disabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.1.2 |Ensure separate partition exists for /tmp |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.1.3 |Ensure nodev option set on /tmp partition |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.1.4 |Ensure nosuid option set on /tmp partition |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.1.5 |Ensure separate partition exists for /var |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.1.6 |Ensure separate partition exists for /var/tmp |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.1.7 |Ensure nodev option set on /var/tmp partition |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.1.8 |Ensure nosuid option set on /var/tmp partition |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.1.9 |Ensure noexec option set on /var/tmp partition |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.1.10 |Ensure separate partition exists for /var/log |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.1.11 |Ensure separate partition exists for /var/log/audit |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.1.12 |Ensure separate partition exists for /home |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.1.13 |Ensure nodev option set on /home partition |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.1.14 |Ensure nodev option set on /dev/shm partition |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.1.15 |Ensure nosuid option set on /dev/shm partition |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.1.16 |Ensure noexec option set on /dev/shm partition |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.1.17 |Ensure nodev option set on removable media partitions |(Not Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.1.18 |Ensure nosuid option set on removable media partitions |(Not Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.1.19 |Ensure noexec option set on removable media partitions |(Not Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.1.20 |Ensure sticky bit is set on all world-writable directories |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.1.21 |Disable Automounting |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.2 |Configure Software Updates 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.2.1 |Ensure package manager repositories are configured |(Not Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.2.2 |Ensure GPG keys are configured |(Not Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.3 |Filesystem Integrity Checking 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.3.1 |Ensure AIDE is installed |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.3.2 |Ensure filesystem integrity is regularly checked |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.4 |Secure Boot Settings 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.4.1 |Ensure permissions on bootloader config are configured |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.4.2 |Ensure bootloader password is set |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.4.3 |Ensure authentication required for single user mode |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.5 |Additional Process Hardening 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.5.1 |Ensure core dumps are restricted |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.5.2 |Ensure XD/NX support is enabled |(Not Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.5.3 |Ensure address space layout randomization (ASLR) is enabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.5.4 |Ensure prelink is disabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.6 |Mandatory Access Control 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.6.1.1 |Ensure SELinux is not disabled in bootloader configuration |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.6.1.2 |Ensure the SELinux state is enforcing |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.6.1.3 |Ensure SELinux policy is configured |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.6.1.4 |Ensure no unconfined daemons exist |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.6.2.1 |Ensure AppArmor is not disabled in bootloader configuration |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.6.2.2 |Ensure all AppArmor Profiles are enforcing |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.6.3 |Ensure SELinux or AppArmor are installed |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.7 |Warning Banners
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.7.1.1 |Ensure message of the day is configured properly |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.7.1.2 |Ensure local login warning banner is configured properly |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.7.1.3 |Ensure remote login warning banner is configured properly |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.7.1.4 |Ensure permissions on /etc/motd are configured |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.7.1.5 |Ensure permissions on /etc/issue are configured |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.7.1.6 |Ensure permissions on /etc/issue.net are configured |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|1.7.2 |Ensure GDM login banner is configured |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2 |Services 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.1 |inetd Services 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.1.1 |Ensure chargen services are not enabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.1.2 |Ensure daytime services are not enabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.1.3 |Ensure discard services are not enabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.1.4 |Ensure echo services are not enabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.1.5 |Ensure time services are not enabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.1.6 |Ensure rsh server is not enabled |(Scored)
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.1.7 |Ensure talk server is not enabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.1.8 |Ensure telnet server is not enabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.1.9 |Ensure tftp server is not enabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.1.10 |Ensure xinetd is not enabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.1.11 |Ensure openbsd-inetd is not installed |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.2 |Special Purpose Services 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.2.1.1 |Ensure time synchronization is in use |(Not Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.2.1.2 |Ensure ntp is configured |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.2.1.3 |Ensure chrony is configured |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.2.2 |Ensure X Window System is not installed |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.2.3 |Ensure Avahi Server is not enabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.2.4 |Ensure CUPS is not enabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.2.5 |Ensure DHCP Server is not enabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.2.6 |Ensure LDAP server is not enabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.2.7 |Ensure NFS and RPC are not enabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.2.8 |Ensure DNS Server is not enabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.2.9 |Ensure FTP Server is not enabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.2.10 |Ensure HTTP server is not enabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.2.11 |Ensure IMAP and POP3 server is not enabled |(Scored)
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.2.12 |Ensure Samba is not enabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.2.13 |Ensure HTTP Proxy Server is not enabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.2.14 |Ensure SNMP Server is not enabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.2.15 |Ensure mail transfer agent is configured for local-only mode |(Scored)
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.2.16 |Ensure rsync service is not enabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.2.17 |Ensure NIS Server is not enabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.3 |Service Clients 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.3.1 |Ensure NIS Client is not installed |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.3.2 |Ensure rsh client is not installed |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.3.3 |Ensure talk client is not installed |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.3.4 |Ensure telnet client is not installed |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|2.3.5 |Ensure LDAP client is not installed |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|3 |Network Configuration
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|3.1 |Network Parameters (Host Only) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|3.1.1 |Ensure IP forwarding is disabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|3.1.2 |Ensure packet redirect sending is disabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|3.2 |Network Parameters (Host and Router) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|3.2.1 |Ensure source routed packets are not accepted |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|3.2.2 |Ensure ICMP redirects are not accepted |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|3.2.3 |Ensure secure ICMP redirects are not accepted |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|3.2.4 |Ensure suspicious packets are logged |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|3.2.5 |Ensure broadcast ICMP requests are ignored |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|3.2.6 |Ensure bogus ICMP responses are ignored |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|3.2.7 |Ensure Reverse Path Filtering is enabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|3.2.8 |Ensure TCP SYN Cookies is enabled |(Scored)
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|3.3 |IPv6 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|3.3.1 |Ensure IPv6 router advertisements are not accepted |(Not Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|3.3.2 |Ensure IPv6 redirects are not accepted |(Not Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|3.3.3 |Ensure IPv6 is disabled |(Not Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|3.4 |TCP Wrappers
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|3.4.1 |Ensure TCP Wrappers is installed |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|3.4.2 |Ensure /etc/hosts.allow is configured |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|3.4.3 |Ensure /etc/hosts.deny is configured |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|3.4.4 |Ensure permissions on /etc/hosts.allow are configured |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|3.4.5 |Ensure permissions on /etc/hosts.deny are configured |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|3.5 |Uncommon Network Protocols 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|3.5.1 |Ensure DCCP is disabled |(Not Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|3.5.2 |Ensure SCTP is disabled |(Not Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|3.5.3 |Ensure RDS is disabled |(Not Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|3.5.4 |Ensure TIPC is disabled |(Not Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|3.6 |Firewall Configuration 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|3.6.1 |Ensure iptables is installed |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|3.6.2 |Ensure default deny firewall policy |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|3.6.3 |Ensure loopback traffic is configured |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|3.6.5 |Ensure firewall rules exist for all open ports |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|3.7 |Ensure wireless interfaces are disabled |(Not Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|4 |Logging and Auditing 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|4.1 |Configure System Accounting (auditd) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|4.1.1.1 |Ensure audit log storage size is configured |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|4.1.1.2 |Ensure system is disabled when audit logs are full |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|4.1.1.3 |Ensure audit logs are not automatically deleted |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|4.1.2 |Ensure auditd service is enabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|4.1.8 |Ensure login and logout events are collected |(Scored)
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|4.1.9 |Ensure session initiation information is collected |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|4.1.12 |Ensure use of privileged commands is collected |(Scored)
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|4.1.13 |Ensure successful file system mounts are collected |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|4.1.14 |Ensure file deletion events by users are collected |(Scored)
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|4.1.16 |Ensure system administrator actions (sudolog) are collected |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|4.1.17 |Ensure kernel module loading and unloading is collected |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|4.1.18 |Ensure the audit configuration is immutable |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|4.2 |Configure Logging 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|4.2.1.1 |Ensure rsyslog Service is enabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|4.2.1.2 |Ensure logging is configured |(Not Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|4.2.1.3 |Ensure rsyslog default file permissions configured |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|4.2.1.4 |Ensure rsyslog is configured to send logs to a remote log host |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|4.2.2.1 |Ensure syslog-ng service is enabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|4.2.2.2 |Ensure logging is configured |(Not Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|4.2.2.3 |Ensure syslog-ng default file permissions configured |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|4.2.3 |Ensure rsyslog or syslog-ng is installed |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|4.2.4 |Ensure permissions on all logfiles are configured |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|4.3 |Ensure logrotate is configured |(Not Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5 |Access, Authentication and Authorization 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.1 |Configure cron 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.1.1 |Ensure cron daemon is enabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.1.2 |Ensure permissions on /etc/crontab are configured |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.1.3 |Ensure permissions on /etc/cron.hourly are configured |(Scored)
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.1.4 |Ensure permissions on /etc/cron.daily are configured |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.1.5 |Ensure permissions on /etc/cron.weekly are configured |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.1.6 |Ensure permissions on /etc/cron.monthly are configured |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.1.7 |Ensure permissions on /etc/cron.d are configured |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.1.8 |Ensure at/cron is restricted to authorized users |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.2 |SSH Server Configuration 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.2.1 |Ensure permissions on /etc/ssh/sshd_config are configured |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.2.2 |Ensure SSH Protocol is set to 2 |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.2.3 |Ensure SSH LogLevel is set to INFO |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.2.4 |Ensure SSH X11 forwarding is disabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.2.5 |Ensure SSH MaxAuthTries is set to 4 or less |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.2.6 |Ensure SSH IgnoreRhosts is enabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.2.7 |Ensure SSH HostbasedAuthentication is disabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.2.8 |Ensure SSH root login is disabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.2.9 |Ensure SSH PermitEmptyPasswords is disabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.2.10 |Ensure SSH PermitUserEnvironment is disabled |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.2.11 |Ensure only approved MAC algorithms are used |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.2.12 |Ensure SSH Idle Timeout Interval is configured |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.2.13 |Ensure SSH LoginGraceTime is set to one minute or less |(Scored)
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.2.14 |Ensure SSH access is limited |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.2.15 |Ensure SSH warning banner is configured |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.3 |Configure PAM 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.3.1 |Ensure password creation requirements are configured |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.3.2 |Ensure lockout for failed password attempts is configured |(Scored)
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.3.3 |Ensure password reuse is limited |(Scored)
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.3.4 |Ensure password hashing algorithm is SHA-512 |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.4 |User Accounts and Environment 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.4.1.1 |Ensure password expiration is 365 days or less |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.4.1.3 |Ensure password expiration warning days is 7 or more |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.4.1.4 |Ensure inactive password lock is 30 days or less |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.4.1.5 |Ensure all users last password change date is in the past |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.4.2 |Ensure system accounts are non-login |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.4.3 |Ensure default group for the root account is GID 0 |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.4.4 |Ensure default user umask is 027 or more restrictive |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.4.5 |Ensure default user shell timeout is 900 seconds or less |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.5 |Ensure root login is restricted to system console |(Not Scored)
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|5.6 |Ensure access to the su command is restricted |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|6 |System Maintenance
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|6.1 |System File Permissions 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|6.1.1 |Audit system file permissions |(Not Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|6.1.2 |Ensure permissions on /etc/passwd are configured |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|6.1.3 |Ensure permissions on /etc/shadow are configured |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|6.1.4 |Ensure permissions on /etc/group are configured |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|6.1.5 |Ensure permissions on /etc/gshadow are configured |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|6.1.6 |Ensure permissions on /etc/passwd- are configured |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|6.1.7 |Ensure permissions on /etc/shadow- are configured |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|6.1.8 |Ensure permissions on /etc/group- are configured |(Scored) 
+CIS|Ubuntu_Linux_18.04_LTS|Benchmark|v1.0.0|6.1.9 |Ensure permissions on /etc/gshadow- are configured |(Scored) 
 CIS|VMware_ESXi_5.1|Benchmark|v1.0.1|1 |Install 
 CIS|VMware_ESXi_5.1|Benchmark|v1.0.1|2 |Communication 
 CIS|VMware_ESXi_5.1|Benchmark|v1.0.1|3 |Logging 
